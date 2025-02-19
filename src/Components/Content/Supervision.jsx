@@ -12,7 +12,6 @@ const CandidatesAndInterns = () => {
   return (
     <section id="Supervision" className="bg-white dark:bg-slate-900 text-black dark:text-white py-20 px-10 lg:px-20">
       <h1
-        data-aos="fade-right"
         className="text-[52px] font-semibold mb-20 leading-normal uppercase text-white-500"
       >
         Supervision
@@ -21,7 +20,6 @@ const CandidatesAndInterns = () => {
       <div className="space-y-8">
         <div>
           <h2
-            data-aos="fade-right"
             className="text-2xl font-semibold mb-6 text-white-600 dark:text-white-400"
           >
             PhD Candidates (supervision along with Prof. Nicolas Padoy)
@@ -30,7 +28,6 @@ const CandidatesAndInterns = () => {
             {phdCandidates.map((candidate, index) => (
               <div
                 key={index}
-                data-aos="fade-down"
                 className="flex flex-col sm:flex-row justify-between border-b border-gray-200 dark:border-gray-700 pb-4 hover:bg-gray-50 dark:hover:bg-slate-800 transition-all duration-300 rounded-lg p-3"
               >
                 <span className="text-gray-600 dark:text-gray-400 font-medium w-48 sm:w-64 mb-2 sm:mb-0 whitespace-nowrap">
@@ -69,7 +66,6 @@ const CandidatesAndInterns = () => {
 
         <div>
           <h2
-            data-aos="fade-right"
             className="text-2xl font-semibold mb-6 text-white-600 dark:text-white-400"
           >
             Research Internships (supervision along with Prof. Nicolas Padoy)
@@ -78,7 +74,6 @@ const CandidatesAndInterns = () => {
             {researchInternships.map((intern, index) => (
               <div
                 key={index}
-                data-aos="fade-down"
                 className="flex flex-col sm:flex-row justify-between border-b border-gray-200 dark:border-gray-700 pb-4 hover:bg-gray-50 dark:hover:bg-slate-800 transition-all duration-300 rounded-lg p-3"
               >
                 <span className="text-gray-600 dark:text-gray-400 font-medium w-48 sm:w-64 mb-2 sm:mb-0 whitespace-nowrap">
