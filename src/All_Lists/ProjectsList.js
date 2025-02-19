@@ -27,7 +27,7 @@ const ProjectsList = [
         "year": "2014",
         "github": "https://github.com/vinkle",
         "image": id_1,
-        "arxiv": "https://arxiv.org/abs/1409.3215"   
+        "arxiv": "https://www.researchgate.net/publication/265859540_Free-access_open-source_e-learning_in_comprehensive_neurosurgery_skills_training"   
     },
     {
         "id": 2,
@@ -37,7 +37,8 @@ const ProjectsList = [
         "year": "2018",
         "github": "https://github.com/CAMMA-public/MVOR",
         "image": id_2,
-        "arxiv": "https://arxiv.org/abs/1809.06847"   
+        "arxiv": "https://arxiv.org/abs/1808.08180",
+        "message": "First human pose estimation dataset recoreded from the real clinical interventions"
     },
     {
         "id": 3,
@@ -47,7 +48,8 @@ const ProjectsList = [
         "year": "2019",
         "github": "https://github.com/CAMMA-public",
         "image": id_3,
-        "arxiv": "https://arxiv.org/abs/1904.07843"   
+        "arxiv": "https://arxiv.org/abs/1811.12296",
+        "message": "Runner-up award in the bench-to-bedside category"
     },
     {
         "id": 4,
@@ -57,7 +59,7 @@ const ProjectsList = [
         "year": "2019",
         "github": "https://github.com/CAMMA-public/ORPose-Depth",
         "image": id_4,
-        "arxiv": "https://arxiv.org/abs/1904.07843"   
+        "arxiv": "https://arxiv.org/abs/2007.08340"   
     },
     {
         "id": 5,
@@ -67,7 +69,8 @@ const ProjectsList = [
         "year": "2020",
         "github": "https://github.com/CAMMA-public/ORPose-Color",
         "image": id_5,
-        "arxiv": "https://arxiv.org/abs/2004.06809"   
+        "arxiv": "https://arxiv.org/abs/2007.08354",
+        "message": "Oral presentation at MICCAI 2020"
     },
     {
         "id": 6,
@@ -77,7 +80,7 @@ const ProjectsList = [
         "year": "2021",
         "github": "https://github.com/CAMMA-public/ai4surgery",
         "image": id_6,
-        "arxiv": "https://arxiv.org/abs/2103.09460"   
+        "arxiv": "https://arxiv.org/pdf/2009.13411"   
     },
     {
         "id": 7,
@@ -87,7 +90,7 @@ const ProjectsList = [
         "year": "2014",
         "github": "https://github.com/vinkle/Neurosurgery-Apps",
         "image": id_7,
-        "arxiv": "https://arxiv.org/abs/2103.09460"   
+        "arxiv": "https://pubmed.ncbi.nlm.nih.gov/25448196/"   
     },
     {
         "id": 8,
@@ -97,7 +100,7 @@ const ProjectsList = [
         "year": "2023",
         "github": "https://github.com/CAMMA-public/SelfSupSurg",
         "image": id_8,
-        "arxiv": "https://arxiv.org/abs/2303.09203"   
+        "arxiv": "https://arxiv.org/abs/2207.00449"   
     },
     {
         "id": 9,
@@ -107,7 +110,7 @@ const ProjectsList = [
         "year": "2022",
         "github": "https://github.com/CAMMA-public/HPE-AdaptOR",
         "image": id_9,
-        "arxiv": "https://arxiv.org/abs/2203.09203"   
+        "arxiv": "https://arxiv.org/abs/2108.11801"   
     },
     {
         "id": 10,
@@ -117,7 +120,7 @@ const ProjectsList = [
         "year": "2024",
         "github": "https://github.com/CAMMA-public/SROR2",
         "image": id_10,
-        "arxiv": "https://arxiv.org/abs/2203.09203"   
+        "arxiv": "https://arxiv.org/abs/2312.12250"   
     },
     {
         "id": 11,
@@ -137,7 +140,7 @@ const ProjectsList = [
         "year": "2024",
         "github": "https://github.com/CAMMA-public/ScalingSurgicalSSL",
         "image": id_12,
-        "arxiv": "https://arxiv.org/abs/2307.15220"   
+        "arxiv": "https://arxiv.org/abs/2312.05968"   
     },
     {
         "id": 13,
@@ -147,7 +150,7 @@ const ProjectsList = [
         "year": "2024",
         "github": "https://github.com/CAMMA-public/med-moco",
         "image": id_13,
-        "arxiv": "https://arxiv.org/abs/2307.15220"   
+        "arxiv": "https://arxiv.org/abs/2402.14611"   
     },
     {
         "id": 14,
@@ -157,7 +160,8 @@ const ProjectsList = [
         "year": "2024",
         "github": "https://github.com/CAMMA-public/SelfPose3d",
         "image": id_14,
-        "arxiv": "https://arxiv.org/abs/2307.15220"   
+        "arxiv": "https://arxiv.org/abs/2404.02041",
+        "message": "Poster presentation at CVPR 2024"
     },
     {
         "id": 15,
@@ -167,7 +171,7 @@ const ProjectsList = [
         "year": "2024",
         "github": "https://github.com/CAMMA-public/hecvl",
         "image": id_15,
-        "arxiv": "https://arxiv.org/abs/2307.15220"   
+        "arxiv": "https://arxiv.org/abs/2405.10075"   
     },
     {
         "id": 16,
@@ -177,7 +181,8 @@ const ProjectsList = [
         "year": "2024",
         "github": "https://github.com/CAMMA-public/SSG-VQA",
         "image": id_16,
-        "arxiv": "https://arxiv.org/abs/2307.15220"   
+        "arxiv": "https://arxiv.org/abs/2312.10251",
+        "message": "Best paper award IPCAI 2024"   
     },
     {
         "id": 17,
@@ -187,7 +192,8 @@ const ProjectsList = [
         "year": "2024",
         "github": "https://github.com/CAMMA-public/PeskaVLP",
         "image": id_17,
-        "arxiv": "https://arxiv.org/abs/2307.15220"   
+        "arxiv": "https://arxiv.org/abs/2410.00263",
+        "message": "Spotlight NeurIPS 2024"
     },
     {
         "id": 18,
@@ -207,7 +213,7 @@ const ProjectsList = [
         "year": "2025",
         "github": "https://github.com/CAMMA-public/Surg-FTDA",
         "image": id_19,
-        "arxiv": "https://arxiv.org/abs/2411.15421"   
+        "arxiv": "https://arxiv.org/abs/2501.09555"   
     },
     {
         "id": 20,
@@ -217,7 +223,7 @@ const ProjectsList = [
         "year": "2025",
         "github": "https://github.com/CAMMA-public/Team-OR/",
         "image": id_20,
-        "arxiv": "https://arxiv.org/abs/2411.15421"   
+        "arxiv": "https://www.arxiv.org/abs/2502.08299"   
     }
 ]
 

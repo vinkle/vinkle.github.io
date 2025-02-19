@@ -24,7 +24,7 @@ function Navbar() {
 
     const handleClick = () => setClick(!click)
     //const navItems = ['Home', 'News', 'TechStack', 'Projects', 'Contact']
-    const navItems = ['Home', 'News', 'Publications', 'Experience', 'Education']
+    const navItems = ["Home", "News", "Education", "Experience", "Teaching", "Supervision", "Publications", "Talks", "Service", "Technical_skills"]
 
 
     const content =
@@ -33,7 +33,7 @@ function Navbar() {
                 <ul className='text-center text-xl p-20'>
                     {navItems.map((item, index) => (
                         <Link key={index} to={item} spy={true} smooth={true}>
-                            <li className='my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded'>{item}</li>
+                            <li className='my-4 px-24 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded'>{item}</li>
                         </Link>
                     ))}
                     <div>

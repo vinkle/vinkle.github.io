@@ -6,6 +6,12 @@ import News from './Components/Content/News'
 import Publications from './Components/Content/Publications'
 import Experience from './Components/Content/Experience'
 import Education from './Components/Content/Education'
+import TechnicalSkills from './Components/Content/Technical'
+import CandidatesAndInterns from './Components/Content/Supervision'
+//import EducationExperience from './Components/Content/EduExp'
+import ResearchAndService from './Components/Content/Service'
+import Teaching from './Components/Content/Teaching'
+import Talks from './Components/Content/Talks'
 import Footer from './Components/Footer/Footer'
 import { useEffect, useState } from 'react'
 import { BallTriangle } from 'react-loader-spinner'
@@ -46,9 +52,14 @@ function App() {
           <Navbar />
           <Home />
           <News />
-          <Publications />
-          <Experience />
           <Education />
+          <Experience />
+          <Teaching />
+          <CandidatesAndInterns />
+          <Publications />
+          <Talks />
+          <ResearchAndService />
+          <TechnicalSkills />
           <Footer />
           <Analytics />
           <SpeedInsights />
