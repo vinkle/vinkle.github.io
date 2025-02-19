@@ -2,20 +2,12 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { FaExternalLinkAlt } from 'react-icons/fa';
+import { newsItems } from '../../All_Lists/NewsItems';
 
 function News() {
   useEffect(() => {
     AOS.init({ duration: 800, easing: 'ease-in-out', once: true });
   }, []);
-
-  const newsItems = [
-    { date: '', text: 'Registration is open for the 2025 edition of the Surgical Data Science Summer School. Apply now!', link: 'https://edu4sds.org/' },
-    { date: '2025/02/03', text: 'Two papers accepted at IPCAI 2025' },
-    { date: '2024/09/25', text: 'One paper accepted at NeurIPS 2024' },
-    { date: '2024/06/17', text: 'Two papers accepted at MICCAI 2024' },
-    { date: '2024/02/23', text: 'One paper accepted at CVPR 2024' },
-    { date: '2024/02/23', text: 'One paper accepted at IPCAI 2024' },
-  ];
 
   return (
     <div id="News" className="bg-white text-black dark:bg-slate-900 dark:text-white px-10 py-16 flex flex-col items-start">

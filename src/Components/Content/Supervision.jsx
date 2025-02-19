@@ -84,7 +84,6 @@ const CandidatesAndInterns = () => {
                 <span className="text-gray-600 dark:text-gray-400 font-medium w-48 sm:w-64 mb-2 sm:mb-0 whitespace-nowrap">
                   {intern.period}
                 </span>
-                {/* Clickable image */}
                 <a
                   href={intern.link}
                   target="_blank"
