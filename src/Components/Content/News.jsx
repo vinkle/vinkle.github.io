@@ -17,7 +17,6 @@ function News() {
           <div
             key={index}
             data-aos="fade-up"
-            data-aos-delay={index * 50}
             className="flex items-center text-sm border-b border-gray-300 dark:border-gray-700 py-3"
           >
             <span className="text-gray-500 dark:text-gray-400 font-medium w-24">{item.date}</span>
