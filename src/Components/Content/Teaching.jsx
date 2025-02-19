@@ -11,7 +11,6 @@ const Teaching = () => {
   return (
     <section id="Teaching" className="bg-white dark:bg-slate-900 text-black dark:text-white py-20 px-10 lg:px-20">
       <h1
-        data-aos="fade-right"
         className="text-[52px] font-semibold mb-20 leading-normal uppercase text-white-500"
       >
         Teaching Experience
@@ -24,8 +23,6 @@ const Teaching = () => {
         {teachingItems.map((item, index) => (
           <div
             key={index}
-            data-aos="fade-down"
-            data-aos-delay={index * 10}
             className="flex flex-col sm:flex-row justify-between border-b border-gray-200 dark:border-gray-700 pb-4 hover:bg-gray-50 dark:hover:bg-slate-800 transition-all duration-50 rounded-lg p-3"
           >
             <span className="text-gray-600 dark:text-gray-400 font-medium w-32 mb-2 sm:mb-0">
