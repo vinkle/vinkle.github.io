@@ -54,7 +54,7 @@ function Home() {
   ];
 
   return (
-    <section id='home' className='bg-white text-black dark:bg-slate-900 dark:text-white lg:px-20 lg:py-0 px-6 py-16 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-20 items-center'>
+    <section id='Home' className='bg-white text-black dark:bg-slate-900 dark:text-white lg:px-20 lg:py-0 px-6 py-16 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-20 items-center'>
       <div className='h-full lg:py-32 flex flex-col justify-center lg:items-start items-center'>
         <h1 data-aos='fade-down' itemProp="name" className='text-[42px] font-semibold mb-6 leading-normal uppercase'>
           Vinkle Srivastav
