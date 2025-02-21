@@ -224,6 +224,16 @@ const ProjectsList = [
         "github": "https://github.com/CAMMA-public/Team-OR/",
         "image": id_20,
         "arxiv": "https://www.arxiv.org/abs/2502.08299"   
+    },
+    {
+        "id": 21,
+        "title": "Multi-view Video-Pose Pretraining for Operating Room Surgical Activity Recognition",
+        "authors": "Idris Hamoud, Vinkle Srivastav, Muhammad Abdullah Jamal, Didier Mutter, Omid Mohareri, Nicolas Padoy",
+        "booktitle": "arXiv preprint arXiv:2502.13883",
+        "year": "2025",
+        "github": "https://github.com/CAMMA-public/PreViPS",
+        "image": id_20,
+        "arxiv": "https://arxiv.org/abs/2502.13883"   
     }
 ]
 
