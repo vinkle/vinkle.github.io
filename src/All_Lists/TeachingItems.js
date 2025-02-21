@@ -1,8 +1,8 @@
 export const teachingItems = [
-    { date: '2024 - 2025', text: "9 hours of TPs for 'Introduction to AI' and 21 hours of TPs for 'Machine Learning and Deep Learning'" },
-    { date: '2023 - 2024', text: "9 hours of TPs for 'Introduction to AI' and 34 hours of TPs for 'Machine Learning and Deep Learning'" },
-    { date: '2022 - 2023', text: "35 hours of TPs for 'Machine Learning and Deep Learning'" },
-    { date: '2021 - 2022', text: "4 hours of TPs for 'Deep Learning for Computer Vision'" },
-    { date: '2020 - 2021', text: "12 hours of TPs for 'Deep Learning for Computer Vision' and 4 hours of TPs for 'OpenCV with C++'" },
-    { date: '2019 - 2020', text: "5 hours of TPs for 'Deep Learning for Computer Vision' and 8 hours of TPs for 'OpenCV with C++'" },
+    { date: 'Fall 2024', text: "Introduction to AI [9 hrs] and Machine Learning and Deep Learning [21 hrs]" },
+    { date: 'Fall 2023', text: "Introduction to AI [9 hrs] and Machine Learning and Deep Learning [34 hrs]" },
+    { date: 'Fall 2022', text: "Machine Learning and Deep Learning [35 hrs]" },
+    { date: 'Fall 2021', text: "Deep Learning for Computer Vision [4 hrs]" },
+    { date: 'Fall 2020', text: "Deep Learning for Computer Vision [12 hrs] and OpenCV with C++ Practicals [4 hrs]" },
+    { date: 'Fall 2019', text: "Deep Learning for Computer Vision [5 hrs] and OpenCV with C++ Practicals [8 hrs]" },
   ];
