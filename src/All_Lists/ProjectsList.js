@@ -18,6 +18,8 @@ import id_17 from "../assets/projects/id_17.png";
 import id_18 from "../assets/projects/id_18.png";   
 import id_19 from "../assets/projects/id_19.png";   
 import id_20 from "../assets/projects/id_20.png";   
+import id_21 from "../assets/projects/id_21.png";   
+
 const ProjectsList = [
     {
         "id": 1,
@@ -232,7 +234,7 @@ const ProjectsList = [
         "booktitle": "arXiv preprint arXiv:2502.13883",
         "year": "2025",
         "github": "https://github.com/CAMMA-public/PreViPS",
-        "image": id_20,
+        "image": id_21,
         "arxiv": "https://arxiv.org/abs/2502.13883"   
     }
 ]
