@@ -15,6 +15,9 @@ const CandidatesAndInterns = () => {
         className="text-[52px] font-semibold mb-20 leading-normal uppercase text-white-500"
       >
         Supervision
+        <span className="text-[15px] block normal-case font-medium text-gray-400 dark:text-gray-400">
+        (along with Prof. Nicolas Padoy)
+        </span>
       </h1>
 
       <div className="space-y-8">
@@ -22,7 +25,7 @@ const CandidatesAndInterns = () => {
           <h2
             className="text-2xl font-semibold mb-6 text-white-600 dark:text-white-400"
           >
-            PhD Candidates (supervision along with Prof. Nicolas Padoy)
+            PhD Candidates
           </h2>
           <div className="space-y-4">
             {phdCandidates.map((candidate, index) => (
@@ -68,7 +71,7 @@ const CandidatesAndInterns = () => {
           <h2
             className="text-2xl font-semibold mb-6 text-white-600 dark:text-white-400"
           >
-            Research Internships (supervision along with Prof. Nicolas Padoy)
+            Research Internships
           </h2>
           <div className="space-y-4">
             {researchInternships.map((intern, index) => (
