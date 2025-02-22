@@ -24,7 +24,7 @@ function Navbar() {
 
     const handleClick = () => setClick(!click)
     //const navItems = ['Home', 'News', 'TechStack', 'Projects', 'Contact']
-    const navItems = ["Home", "News", "Education", "Experience", "Teaching", "Supervision", "Publications", "Talks", "Service", "Technical_skills"]
+    const navItems = ["Home", "News", "Education", "Experience", "Teaching", "Supervision", "Publications", "Talks", "Service", "Skills"]
 
 
     const content =
