@@ -19,7 +19,7 @@ function Publications() {
       <h1 className="text-[52px] font-semibold mb-20 leading-normal uppercase text-white-500">
       Publications
       <span className="text-[15px] block normal-case font-medium text-gray-400 dark:text-gray-400">
-        <a href="https://scholar.google.fr/citations?user=FDWwdoQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline"> <FaGoogleScholar/> Google Scholar </a> 
+        <a href="https://scholar.google.fr/citations?user=FDWwdoQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline"> <FaGoogleScholar/> Google Scholar (h-index: 13, i10-index: 17) </a> 
       </span>
     </h1>
       {ProjectsList.slice().reverse().map((project) => (
