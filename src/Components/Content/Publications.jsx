@@ -4,7 +4,8 @@ import 'aos/dist/aos.css';
 import ProjectsList from '../../All_Lists/ProjectsList';
 import { AiFillGithub } from 'react-icons/ai';
 import { SiArxiv } from "react-icons/si";
-import { FaInfoCircle } from "react-icons/fa"; // Import an icon for the message
+import { FaInfoCircle } from "react-icons/fa"; 
+import { FaGoogleScholar } from "react-icons/fa6";
 
 function Publications() {
   
@@ -15,7 +16,12 @@ function Publications() {
 
   return (
     <div id='Publications' className='bg-white text-black dark:bg-slate-900 dark:text-white p-20 flex flex-col items-left justify-center'>
-      <h1 data-aos='fade-right' className='text-[52px] font-semibold mb-20 leading-normal uppercase text-white-500'>Publications</h1>
+      <h1 className="text-[52px] font-semibold mb-20 leading-normal uppercase text-white-500">
+      Publications
+      <span className="text-[15px] block normal-case font-medium text-gray-400 dark:text-gray-400">
+        <a href="https://scholar.google.fr/citations?user=FDWwdoQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline"> <FaGoogleScholar/> Google Scholar </a> 
+      </span>
+    </h1>
       {ProjectsList.slice().reverse().map((project) => (
         <div key={project.id} data-aos='fade-down' className='flex flex-row items-center justify-between mb-10 p-6 border-2 border-gray-300 rounded-lg shadow-lg'>
           <div className='flex flex-col w-2/3'>

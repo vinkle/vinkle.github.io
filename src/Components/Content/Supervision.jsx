@@ -11,15 +11,12 @@ const CandidatesAndInterns = () => {
 
   return (
     <section id="Supervision" className="bg-white dark:bg-slate-900 text-black dark:text-white py-20 px-10 lg:px-20">
-      <h1
-        className="text-[52px] font-semibold mb-20 leading-normal uppercase text-white-500"
-      >
-        Supervision
-        <span className="text-[15px] block normal-case font-medium text-gray-400 dark:text-gray-400">
-        (along with Prof. Nicolas Padoy)
-        </span>
-      </h1>
-
+    <h1 className="text-[52px] font-semibold mb-20 leading-normal uppercase text-white-500">
+      Supervision
+      <span className="text-[15px] block normal-case font-medium text-gray-400 dark:text-gray-400">
+        (along with <a href="https://camma.unistra.fr/npadoy/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Prof. Nicolas Padoy</a>)
+      </span>
+    </h1>
       <div className="space-y-8">
         <div>
           <h2
