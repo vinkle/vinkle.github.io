@@ -9,7 +9,7 @@ const TechnicalSkills = () => {
   }, []);
 
   return (
-    <section id="Technical_skills" className="bg-gray-50 dark:bg-slate-900 text-black dark:text-white py-20 px-10 lg:px-20">
+    <section id="Skills" className="bg-gray-50 dark:bg-slate-900 text-black dark:text-white py-20 px-10 lg:px-20">
       <h1
         data-aos="fade-right"
         className="text-[52px] font-semibold mb-20 leading-normal uppercase text-gray-700 dark:text-white"

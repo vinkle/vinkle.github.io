@@ -10,7 +10,7 @@ const ResearchAndService = () => {
   return (
     <section id="Service" className="bg-white dark:bg-slate-900 text-black dark:text-white py-20 px-10 lg:px-20">
       <h1 data-aos="fade-right" className="text-5xl md:text-6xl font-bold mb-20 leading-tight uppercase text-white-600 dark:text-white-400">
-        Service & Leadership
+        Service & Activities
       </h1>
 
       <div data-aos="fade-down" className="border-b border-gray-200 dark:border-gray-700 pb-8">
