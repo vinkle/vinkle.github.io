@@ -21,15 +21,14 @@ function News() {
             className="flex items-center text-sm border-b border-gray-300 dark:border-gray-700 py-3"
           >
             <span className="text-gray-500 dark:text-gray-400 font-medium w-24">{item.date}</span>
-            <span className="text-gray-900 dark:text-gray-100 flex-1">{item.text}</span>
             {item.link && (
               <a
                 href={item.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 dark:text-blue-400 flex items-center gap-1 text-xs ml-3 hover:underline"
+                className="text-blue-400 dark:text-blue-400 flex items-center gap-3 text-l ml-2 hover:underline  font-medium"
               >
-                Click Here <FaExternalLinkAlt className="text-[10px]" />
+                {item.text}
               </a>
             )}
           </div>
