@@ -2,9 +2,15 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaBriefcase, FaGraduationCap, FaDownload } from 'react-icons/fa'; // Import FaDownload
 import { education } from '../../All_Lists/EducationList';
-
+import { Helmet } from 'react-helmet';
 const Education = () => {
   return (
+    <>
+      <Helmet>
+        <title>Education</title>
+        <meta name="description" content="Explore my educational background and achievements." />
+        <meta name="keywords" content="education, degrees, certifications, qualifications" />
+      </Helmet>
     <section className="min-h-screen py-20 bg-white dark:bg-gray-900">
       <div id='Education' className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
@@ -56,6 +62,7 @@ const Education = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

@@ -3,13 +3,19 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { phdCandidates } from '../../All_Lists/PhDCandidates';
 import { researchInternships } from '../../All_Lists/ResearchCandidates';
-
+import { Helmet } from 'react-helmet';
 const CandidatesAndInterns = () => {
   useEffect(() => {
     AOS.init({ duration: 800, easing: 'ease-in-out', once: true });
   }, []);
 
   return (
+    <>
+      <Helmet>
+        <title>Supervision</title>
+        <meta name="description" content="Explore my supervision and guidance." />
+        <meta name="keywords" content="supervision, guidance, mentorship, academic" />
+      </Helmet>
     <section id="Supervision" className="bg-white dark:bg-slate-900 text-black dark:text-white py-20 px-10 lg:px-20">
     <h1 className="text-[52px] font-semibold mb-20 leading-normal uppercase text-white-500">
       Supervision
@@ -110,6 +116,7 @@ const CandidatesAndInterns = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

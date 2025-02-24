@@ -12,6 +12,8 @@ export const phdCandidates = [
       period: '[2020 -- ongoing]',
       thesis: 'Thesis on "Self-supervised structured learning for robotic operating room workflow monitoring."',
       image: idris_hamoud,
+      keywords: ['self-supervised learning', 'robotic surgery', 'workflow monitoring'],
+      researchArea: 'Surgical Workflow Analysis',
     },
     {
       name: 'Kun Yuan',

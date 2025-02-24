@@ -2,13 +2,19 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { skills } from '../../All_Lists/Skills';
-
+import { Helmet } from 'react-helmet';
 const TechnicalSkills = () => {
   useEffect(() => {
     AOS.init({ duration: 800, easing: 'ease-in-out', once: true });
   }, []);
 
   return (
+    <>
+      <Helmet>
+        <title>Technical Skills</title>
+        <meta name="description" content="Explore my technical skills and expertise." />
+        <meta name="keywords" content="skills, expertise, technologies, tools" />
+      </Helmet>
     <section id="Skills" className="bg-gray-50 dark:bg-slate-900 text-black dark:text-white py-20 px-10 lg:px-20">
       <h1
         data-aos="fade-right"
@@ -30,6 +36,7 @@ const TechnicalSkills = () => {
         ))}
       </div>
     </section>
+    </>
   );
 };
 

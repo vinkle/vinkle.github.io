@@ -2,12 +2,19 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { talksItems } from '../../All_Lists/TalkItems';
+import { Helmet } from 'react-helmet';
 const Talks = () => {
   useEffect(() => {
     AOS.init({ duration: 800, easing: 'ease-in-out', once: true });
   }, []);
 
   return (
+    <>
+      <Helmet>
+        <title>Talks</title>
+        <meta name="description" content="Explore my talks and presentations." />
+        <meta name="keywords" content="talks, presentations, conferences, events" />
+      </Helmet>
     <section id="Talks" className="bg-white dark:bg-slate-900 text-black dark:text-white py-20 px-10 lg:px-20">
       <h1
         data-aos="fade-right"
@@ -38,6 +45,7 @@ const Talks = () => {
         ))}
       </div>
     </section>
+    </>
   );
 };
 

@@ -2,9 +2,15 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaBriefcase } from 'react-icons/fa';
 import { experiences } from '../../All_Lists/ExperienceList';
-
+import { Helmet } from 'react-helmet';
 const Experience = () => {
   return (
+    <>
+      <Helmet>
+        <title>Experience</title>
+        <meta name="description" content="Explore my work experience and professional journey." />
+        <meta name="keywords" content="experience, professional, career, work history" />
+      </Helmet>
     <section className="min-h-screen py-20 bg-white dark:bg-gray-900">
       <div id='Experience' className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
@@ -45,6 +51,7 @@ const Experience = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

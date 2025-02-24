@@ -2,7 +2,7 @@ import React from 'react'
 import { AiFillGithub } from 'react-icons/ai'
 import { FaLinkedinIn } from 'react-icons/fa'
 import { FaGoogleScholar } from 'react-icons/fa6'
-
+import { Helmet } from 'react-helmet';
 function Footer() {
 
     const social = [
@@ -21,6 +21,12 @@ function Footer() {
       ]
       
     return (
+        <>
+        <Helmet>
+            <title>Footer</title>
+            <meta name="description" content="Footer of the website." />
+            <meta name="keywords" content="footer, website, contact, information" />
+        </Helmet>
         <footer className='md:flex md:px-10 lg:flex bg-white dark:bg-slate-800 text-black dark:text-white lg:px-48 px-4 py-5 justify-between border-t border-slate-800'>
                 <div className='md:flex lg:flex gap-10 '>
                     <div>
@@ -36,6 +42,7 @@ function Footer() {
                     </div>
                 </div>
         </footer>
+        </>
     )
 }
 

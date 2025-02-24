@@ -2,13 +2,19 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { teachingItems } from '../../All_Lists/TeachingItems';
-
+import { Helmet } from 'react-helmet';
 const Teaching = () => {
   useEffect(() => {
     AOS.init({ duration: 800, easing: 'ease-in-out', once: true });
   }, []);
 
   return (
+    <>
+      <Helmet>
+        <title>Teaching</title>
+        <meta name="description" content="Explore my teaching experience and contributions." />
+        <meta name="keywords" content="teaching, education, courses, lectures" />
+      </Helmet>
     <section id="Teaching" className="bg-white dark:bg-slate-900 text-black dark:text-white py-20 px-10 lg:px-20">
       <h1
         className="text-[52px] font-semibold mb-20 leading-normal uppercase text-white-500"
@@ -35,6 +41,7 @@ const Teaching = () => {
         ))}
       </div>
     </section>
+    </>
   );
 };
 

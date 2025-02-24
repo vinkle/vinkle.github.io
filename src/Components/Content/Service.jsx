@@ -1,13 +1,19 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import { Helmet } from 'react-helmet';
 const ResearchAndService = () => {
   useEffect(() => {
     AOS.init({ duration: 800, easing: 'ease-in-out', once: true });
   }, []);
 
   return (
+    <>
+      <Helmet>
+        <title>Service</title>
+        <meta name="description" content="Explore my service and activities." />
+        <meta name="keywords" content="service, activities, contributions, involvement" />
+      </Helmet>
     <section id="Service" className="bg-white dark:bg-slate-900 text-black dark:text-white py-20 px-10 lg:px-20">
       <h1 data-aos="fade-right" className="text-5xl md:text-6xl font-bold mb-20 leading-tight uppercase text-white-600 dark:text-white-400">
         Service & Activities
@@ -49,6 +55,7 @@ const ResearchAndService = () => {
         </ul>
       </div>
     </section>
+    </>
   );
 };
 

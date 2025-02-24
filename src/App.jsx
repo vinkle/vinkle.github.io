@@ -17,7 +17,7 @@ import { useEffect, useState } from 'react'
 import { BallTriangle } from 'react-loader-spinner'
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
-
+import { Helmet } from 'react-helmet';
 function App() {
   const [loading, setLoading] = useState(false)
 
@@ -31,7 +31,12 @@ function App() {
 
 
   return (
-    <>
+      <>
+      <Helmet>
+        <title>Vinkle Srivastav</title>
+        <meta name="description" content="Vinkle Srivastav's personal website." />
+        <meta name="keywords" content="Vinkle Srivastav, personal website, research, publications, talks, service, skills" />
+      </Helmet>
       {loading ?
         <div className="bg-slate-900 h-[100vh] flex justify-center items-center">
           <BallTriangle

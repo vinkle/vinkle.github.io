@@ -6,7 +6,7 @@ import img from '../../assets/profile.jpeg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { BiMailSend } from 'react-icons/bi';
-
+import { Helmet } from 'react-helmet';
 function Home() {  
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -54,6 +54,12 @@ function Home() {
   ];
 
   return (
+    <>
+      <Helmet>
+        <title>Home</title>
+        <meta name="description" content="Welcome to the homepage of Vinkle Srivastav." />
+        <meta name="keywords" content="home, about, contact, information" />
+      </Helmet>
     <section 
       id='Home' 
       className='bg-white text-black dark:bg-slate-900 dark:text-white lg:px-20 px-4 py-16 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-20 items-center overflow-x-hidden'
@@ -124,6 +130,7 @@ function Home() {
         className='rounded-full border-2 p-1 border-white-500 img_glow w-48 h-48 lg:w-64 lg:h-64' 
       />   
     </section>
+    </>
   );
 }
 

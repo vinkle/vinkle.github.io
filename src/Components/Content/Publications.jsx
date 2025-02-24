@@ -7,7 +7,7 @@ import { SiArxiv } from "react-icons/si";
 import { FaInfoCircle } from "react-icons/fa"; 
 import { FaGoogleScholar } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
-
+import { Helmet } from 'react-helmet';
 function Publications() {
   
   //for animation of the content in a component
@@ -16,6 +16,12 @@ function Publications() {
   }, []);
 
   return (
+    <>
+      <Helmet>
+        <title>Publications</title>
+        <meta name="description" content="Explore the latest publications and research projects." />
+        <meta name="keywords" content="publications, research, projects, articles" />
+      </Helmet>
     <div id='Publications' className='bg-white text-black dark:bg-slate-900 dark:text-white p-20 flex flex-col items-left justify-center'>
       <h1 className="text-[52px] font-semibold mb-20 leading-normal uppercase text-white-500">
       Publications
@@ -67,6 +73,7 @@ function Publications() {
         </div>
       ))}
     </div>
+    </>
   );
 }
 
