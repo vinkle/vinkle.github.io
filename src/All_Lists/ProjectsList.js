@@ -112,7 +112,9 @@ const ProjectsList = [
         "year": "2022",
         "github": "https://github.com/CAMMA-public/HPE-AdaptOR",
         "image": id_9,
-        "arxiv": "https://arxiv.org/abs/2108.11801"   
+        "arxiv": "https://arxiv.org/abs/2108.11801",
+        "youtube": "https://www.youtube.com/watch?v=gqwPu9-nfGs",
+        "youtube_message": "Demo video"          
     },
     {
         "id": 10,
@@ -163,7 +165,9 @@ const ProjectsList = [
         "github": "https://github.com/CAMMA-public/SelfPose3d",
         "image": id_14,
         "arxiv": "https://arxiv.org/abs/2404.02041",
-        "message": "Poster presentation at CVPR 2024"
+        "message": "Poster presentation at CVPR 2024",
+        "youtube": "https://www.youtube.com/watch?v=GAqhmUIr2E8",
+        "youtube_message": "Demo video"        
     },
     {
         "id": 15,

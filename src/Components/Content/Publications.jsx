@@ -6,6 +6,7 @@ import { AiFillGithub } from 'react-icons/ai';
 import { SiArxiv } from "react-icons/si";
 import { FaInfoCircle } from "react-icons/fa"; 
 import { FaGoogleScholar } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
 
 function Publications() {
   
@@ -26,12 +27,18 @@ function Publications() {
         <div key={project.id} data-aos='fade-down' className='flex flex-row items-center justify-between mb-10 p-6 border-2 border-gray-300 rounded-lg shadow-lg'>
           <div className='flex flex-col w-2/3'>
             <h2 className='text-2xl font-bold mb-2'>{project.title}</h2>
+            {project.youtube_message && (
+              <a target="_blank" href={project.youtube} className='text-green-500 hover:text-green-700 flex items-center mr-4'>
+                <FaYoutube className='mr-2' />
+                <p className='italic'>{project.youtube_message}</p>
+              </a>
+            )}              
             {project.message && (
               <div className='flex items-center text-yellow-600 dark:text-yellow-400 mb-2'>
                 <FaInfoCircle className='mr-2' />
                 <p className='italic'>{project.message}</p>
               </div>
-            )}
+            )}          
             <p className='text-gray-700 dark:text-gray-300'>{project.authors}</p>
             <p className='text-gray-600 dark:text-gray-400 italic'>{project.booktitle}, {project.year}</p>
             <div className='flex items-center mt-4'>
