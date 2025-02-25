@@ -11,7 +11,7 @@ export const education = [
     {
       id: 2,
       position: "Master of Science (Research), Computer Science",
-      company: "{Indian Institute of Technology, Delhi, India",
+      company: "Indian Institute of Technology, Delhi, India",
       timeFrame: "2014 - 2017",
       //technologies: ["Node.js", "Express", "MongoDB"],
       description: "Thesis Title: Computerized evaluation of neurosurgery skills using image processing and computer vision techniques. CGPA: 9.3/10",
