@@ -56,7 +56,7 @@ function Home() {
   return (
     <>
       <Helmet>
-        <title>Home</title>
+        <title>Vinkle Srivastav</title>
         <meta name="description" content="Welcome to the homepage of Vinkle Srivastav." />
         <meta name="keywords" content="home, about, contact, information" />
       </Helmet>

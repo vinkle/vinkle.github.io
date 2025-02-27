@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     <>
       <Helmet>
-        <title>Experience</title>
+      <title>Vinkle Srivastav</title>
         <meta name="description" content="Explore my work experience and professional journey." />
         <meta name="keywords" content="experience, professional, career, work history" />
       </Helmet>

@@ -11,7 +11,7 @@ const Talks = () => {
   return (
     <>
       <Helmet>
-        <title>Talks</title>
+        <title>Vinkle Srivastav</title>
         <meta name="description" content="Explore my talks and presentations." />
         <meta name="keywords" content="talks, presentations, conferences, events" />
       </Helmet>

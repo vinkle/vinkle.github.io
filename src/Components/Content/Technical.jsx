@@ -11,7 +11,7 @@ const TechnicalSkills = () => {
   return (
     <>
       <Helmet>
-        <title>Technical Skills</title>
+        <title>Vinkle Srivastav</title>
         <meta name="description" content="Explore my technical skills and expertise." />
         <meta name="keywords" content="skills, expertise, technologies, tools" />
       </Helmet>

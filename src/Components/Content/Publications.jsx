@@ -18,7 +18,7 @@ function Publications() {
   return (
     <>
       <Helmet>
-        <title>Publications</title>
+        <title>Vinkle Srivastav</title>
         <meta name="description" content="Explore the latest publications and research projects." />
         <meta name="keywords" content="publications, research, projects, articles" />
       </Helmet>

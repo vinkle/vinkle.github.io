@@ -11,7 +11,7 @@ const Teaching = () => {
   return (
     <>
       <Helmet>
-        <title>Teaching</title>
+        <title>Vinkle Srivastav</title>
         <meta name="description" content="Explore my teaching experience and contributions." />
         <meta name="keywords" content="teaching, education, courses, lectures" />
       </Helmet>

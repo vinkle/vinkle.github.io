@@ -12,7 +12,7 @@ const CandidatesAndInterns = () => {
   return (
     <>
       <Helmet>
-        <title>Supervision</title>
+        <title>Vinkle Srivastav</title>
         <meta name="description" content="Explore my supervision and guidance." />
         <meta name="keywords" content="supervision, guidance, mentorship, academic" />
       </Helmet>

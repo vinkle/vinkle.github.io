@@ -13,7 +13,7 @@ function News() {
   return (
     <>
       <Helmet>
-        <title>News</title>
+        <title>Vinkle Srivastav</title>
         <meta name="description" content="Stay updated with the latest news and events." />
         <meta name="keywords" content="news, events, updates, announcements" />
       </Helmet>

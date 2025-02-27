@@ -7,7 +7,7 @@ const Education = () => {
   return (
     <>
       <Helmet>
-        <title>Education</title>
+        <title>Vinkle Srivastav</title>
         <meta name="description" content="Explore my educational background and achievements." />
         <meta name="keywords" content="education, degrees, certifications, qualifications" />
       </Helmet>

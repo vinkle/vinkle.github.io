@@ -10,7 +10,7 @@ const ResearchAndService = () => {
   return (
     <>
       <Helmet>
-        <title>Service</title>
+        <title>Vinkle Srivastav</title>
         <meta name="description" content="Explore my service and activities." />
         <meta name="keywords" content="service, activities, contributions, involvement" />
       </Helmet>
