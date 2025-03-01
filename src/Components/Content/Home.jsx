@@ -83,7 +83,7 @@ function Home() {
           data-aos='fade-down' 
           className='text-base lg:text-[16px] mb-6'
         >
-          I am a senior researcher at the CAMMA lab, IHU Strasbourg, with a focus on surgical data science. I obtained my Ph.D. from the University of Strasbourg, where I worked under the guidance of <a href='https://camma.unistra.fr/npadoy/' target='_blank' rel='noopener noreferrer' className='text-white-100 font-bold hover:text-blue-700'>Prof. Nicolas Padoy</a>, specializing in unsupervised domain adaptation for human pose estimation in the operating room. Before that, I contributed to the development of AI-driven physical and virtual reality simulators for neurosurgical skill evaluation at the All-India Institute of Medical Science, Delhi, and the Indian Institute of Technology, Delhi.
+          I am a senior researcher at the CAMMA lab, IHU Strasbourg, with a focus on surgical data science. I obtained my Ph.D. from the University of Strasbourg, where I worked under the guidance of <a href='https://camma.unistra.fr/npadoy/' target='_blank' rel='noopener noreferrer' className='text-white-100'>Prof. Nicolas Padoy</a>, specializing in unsupervised domain adaptation for human pose estimation in the operating room. Before that, I contributed to the development of AI-driven physical and virtual reality simulators for neurosurgical skill evaluation at the All-India Institute of Medical Science, Delhi, and the Indian Institute of Technology, Delhi.
         </p>
         <div 
           data-aos='fade-down' 
