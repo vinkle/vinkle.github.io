@@ -52,7 +52,7 @@ const ProjectsList = [
         "github": "https://github.com/CAMMA-public",
         "image": id_3,
         "arxiv": "https://arxiv.org/abs/1811.12296",
-        "message": "Runner-up award in the bench-to-bedside category",
+        "message": "Runner-up award in the bench-to-bedside category, IPCAI 2019",
         "summary": "This paper compares state-of-the-art face detection methods in the operating room and proposes a self-supervised approach to improve accuracy in challenging surgical environments."
     },
     {
