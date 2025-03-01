@@ -65,12 +65,11 @@ function Publications() {
               </div>
             </div>
             {project.image && (
-              <a target="_blank" href={project.github} className='w-1/3 h-40 bg-white flex items-center justify-center rounded-lg'>
+              <a target="_blank" href={project.github} className='w-1/3 h-40 flex items-center justify-center rounded-lg'>
                 <img 
                   className='w-full h-full object-contain rounded-lg' 
                   src={project.image} 
                   alt={project.title} 
-                  style={{ backgroundColor: 'white' }}
                 />
               </a>
             )}
