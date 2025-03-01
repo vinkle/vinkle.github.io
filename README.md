@@ -1,1 +1,1 @@
-# Vinkle Srivastav
+Personal website built using React, Vite, and GitHub pages.
