@@ -14,7 +14,7 @@ const Education = () => {
         <meta property="og:title" content="Vinkle Srivastav - Education" />
         <meta property="og:description" content="Explore Vinkle Srivastav's educational background, including degrees, certifications, and academic achievements." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.vinklesrivastav.com/education" />
+        <meta property="og:url" content="https://vinkle.github.io/" />
       </Helmet>
       <section className="min-h-screen py-20 bg-white dark:bg-gray-900">
         <div id='Education' className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
