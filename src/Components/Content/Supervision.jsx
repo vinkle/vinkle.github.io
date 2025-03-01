@@ -68,7 +68,6 @@ const CandidatesAndInterns = () => {
                       <a href={candidate.linkedin_link} target="_blank" rel="noopener noreferrer">
                         <FaLinkedinIn className="text-blue-600 hover:text-blue-800" size={16} />
                       </a>
-                      {/* Conditionally render Google Scholar icon if scholar_link exists */}
                       {candidate.scholar_link && (
                         <a href={candidate.scholar_link} target="_blank" rel="noopener noreferrer">
                           <FaGoogleScholar className="text-cyan-600 hover:text-green-800" size={16} />
@@ -122,7 +121,6 @@ const CandidatesAndInterns = () => {
                       <a href={intern.linkedin_link} target="_blank" rel="noopener noreferrer">
                         <FaLinkedinIn className="text-blue-600 hover:text-blue-800" size={16} />
                       </a>
-                      {/* Conditionally render Google Scholar icon if scholar_link exists */}
                       {intern.scholar_link && (
                         <a href={intern.scholar_link} target="_blank" rel="noopener noreferrer">
                           <FaGoogleScholar className="text-cyan-600 hover:text-green-800" size={16} />
