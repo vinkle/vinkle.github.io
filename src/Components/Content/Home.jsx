@@ -7,6 +7,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { BiMailSend } from 'react-icons/bi';
 import { Helmet } from 'react-helmet';
+
 function Home() {  
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -57,79 +58,83 @@ function Home() {
     <>
       <Helmet>
         <title>Vinkle Srivastav</title>
-        <meta name="description" content="Welcome to the homepage of Vinkle Srivastav." />
-        <meta name="keywords" content="home, about, contact, information" />
+        <meta name="description" content="Welcome to the homepage of Vinkle Srivastav, a senior researcher specializing in surgical data science and AI-driven solutions in healthcare." />
+        <meta name="keywords" content="Vinkle Srivastav, surgical data science, AI, healthcare, research" />
+        <meta property="og:title" content="Vinkle Srivastav - Home" />
+        <meta property="og:description" content="Welcome to the homepage of Vinkle Srivastav, a senior researcher specializing in surgical data science and AI-driven solutions in healthcare." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://vinkle.github.io/" />
       </Helmet>
-    <section 
-      id='Home' 
-      className='bg-white text-black dark:bg-slate-900 dark:text-white lg:px-20 px-4 py-16 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-20 items-center overflow-x-hidden'
-    >
-      <div className='h-full lg:py-32 flex flex-col justify-center lg:items-start items-center'>
-        <h1 
-          data-aos='fade-down' 
-          itemProp="name" 
-          className='text-4xl lg:text-[42px] font-semibold mb-6 leading-normal uppercase'
-        >
-          Vinkle Srivastav
-        </h1>
-        <h2 
-          data-aos='fade-down' 
-          itemProp="jobTitle" 
-          className='text-lg lg:text-[18px] dark:text-gray-400 font-semibold mb-6 leading-normal'
-        >
-          Senior Researcher (Chargé de recherche R&D) at IHU Strasbourg, France
-        </h2>        
-        <p 
-          data-aos='fade-down' 
-          className='text-base lg:text-[16px] mb-6'
-        >
-          I am a senior researcher at the <a href='https://camma.unistra.fr/' target='_blank' rel='noopener noreferrer' className='text-blue-400 font-bold hover:text-green-600'>CAMMA lab</a> in <a href='https://www.ihu-strasbourg.eu/' target='_blank' rel='noopener noreferrer' className='text-blue-400 font-bold hover:text-green-600'>IHU Strasbourg</a>, with a focus on surgical data science. I obtained my Ph.D. from the University of Strasbourg, where I worked under the guidance of <a href='https://camma.unistra.fr/npadoy/' target='_blank' rel='noopener noreferrer' className='text-blue-400 font-bold hover:text-green-600'>Prof. Nicolas Padoy</a>, specializing in unsupervised domain adaptation for human pose estimation in the operating room. Before that, I contributed to the development of physical and virtual reality simulators using computer vision and computer graphics for neurosurgical skill evaluation at the <a href='https://www.aiimsnets.org/' target='_blank' rel='noopener noreferrer' className='text-blue-400 font-bold hover:text-green-600'>NETS lab</a>, All-India Institute of Medical Science, Delhi, and the Indian Institute of Technology, Delhi.
-        </p>
-        <div 
-          data-aos='fade-down' 
-          className='flex mt-6 gap-2 flex-wrap justify-center lg:justify-start'
-        >
-          {social.map((social, index) => (
-            <a 
-              key={index} 
-              target="_blank" 
-              href={social.link} 
-              rel='noopener noreferrer' 
-              className='text-white-800 px-3 hover:text-blue-500 justify-center rounded-full glow p-2'
-            >
-              <div className='text-lg lg:text-[20px] flex items-center justify-center gap-2'>
-                {social.text} {social.icon}  
-              </div>
-            </a>
-          ))}
-        </div>
-        {/* Research Interests Section */}
-        <div 
-          data-aos='fade-down' 
-          className='mt-6 w-full'
-        >
-          <h3 className='text-lg lg:text-[18px] font-semibold mb-3'>Research Interests</h3>
-          <ul className='flex flex-wrap gap-2 justify-center lg:justify-start'>
-            {researchInterests.map((interest, index) => (
-              <li 
+      <header 
+        id='Home' 
+        className='bg-white text-black dark:bg-slate-900 dark:text-white lg:px-20 px-4 py-16 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-20 items-center overflow-x-hidden'
+      >
+        <div className='h-full lg:py-32 flex flex-col justify-center lg:items-start items-center'>
+          <h1 
+            data-aos='fade-down' 
+            itemProp="name" 
+            className='text-4xl lg:text-[42px] font-semibold mb-6 leading-normal uppercase'
+          >
+            Vinkle Srivastav
+          </h1>
+          <h2 
+            data-aos='fade-down' 
+            itemProp="jobTitle" 
+            className='text-lg lg:text-[18px] dark:text-gray-400 font-semibold mb-6 leading-normal'
+          >
+            Senior Researcher (Chargé de recherche R&D) at IHU Strasbourg, France
+          </h2>        
+          <p 
+            data-aos='fade-down' 
+            className='text-base lg:text-[16px] mb-6'
+          >
+            I am a senior researcher at the <a href='https://camma.unistra.fr/' target='_blank' rel='noopener noreferrer' className='text-blue-400 font-bold hover:text-green-600'>CAMMA lab</a> in <a href='https://www.ihu-strasbourg.eu/' target='_blank' rel='noopener noreferrer' className='text-blue-400 font-bold hover:text-green-600'>IHU Strasbourg</a>, with a focus on surgical data science. I obtained my Ph.D. from the University of Strasbourg, where I worked under the guidance of <a href='https://camma.unistra.fr/npadoy/' target='_blank' rel='noopener noreferrer' className='text-blue-400 font-bold hover:text-green-600'>Prof. Nicolas Padoy</a>, specializing in unsupervised domain adaptation for human pose estimation in the operating room. Before that, I contributed to the development of physical and virtual reality simulators using computer vision and computer graphics for neurosurgical skill evaluation at the <a href='https://www.aiimsnets.org/' target='_blank' rel='noopener noreferrer' className='text-blue-400 font-bold hover:text-green-600'>NETS lab</a>, All-India Institute of Medical Science, Delhi, and the Indian Institute of Technology, Delhi.
+          </p>
+          <div 
+            data-aos='fade-down' 
+            className='flex mt-6 gap-2 flex-wrap justify-center lg:justify-start'
+          >
+            {social.map((social, index) => (
+              <a 
                 key={index} 
-                className='bg-blue-400 dark:bg-blue-900 text-blue-800 dark:text-blue-100 px-3 py-1 rounded-full text-xs font-medium'
+                target="_blank" 
+                href={social.link} 
+                rel='noopener noreferrer' 
+                className='text-white-800 px-3 hover:text-blue-500 justify-center rounded-full glow p-2'
+                aria-label={social.text}
               >
-                {interest}
-              </li>
+                <div className='text-lg lg:text-[20px] flex items-center justify-center gap-2'>
+                  {social.text} {social.icon}  
+                </div>
+              </a>
             ))}
-          </ul>
-        </div>
-      </div> 
-      <img 
-        data-aos='fade-up' 
-        src={img} 
-        width={200} 
-        height={200} 
-        alt="Vinkle Srivastav Profile Picture" 
-        className='rounded-full border-2 p-1 border-white-500 img_glow w-48 h-48 lg:w-64 lg:h-64' 
-      />   
-    </section>
+          </div>
+          <div 
+            data-aos='fade-down' 
+            className='mt-6 w-full'
+          >
+            <h3 className='text-lg lg:text-[18px] font-semibold mb-3'>Research Interests</h3>
+            <ul className='flex flex-wrap gap-2 justify-center lg:justify-start'>
+              {researchInterests.map((interest, index) => (
+                <li 
+                  key={index} 
+                  className='bg-blue-400 dark:bg-blue-900 text-blue-800 dark:text-blue-100 px-3 py-1 rounded-full text-xs font-medium'
+                >
+                  {interest}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div> 
+        <img 
+          data-aos='fade-up' 
+          src={img} 
+          width={200} 
+          height={200} 
+          alt="Vinkle Srivastav Profile Picture" 
+          className='rounded-full border-2 p-1 border-white-500 img_glow w-48 h-48 lg:w-64 lg:h-64' 
+        />   
+      </header>
     </>
   );
 }
