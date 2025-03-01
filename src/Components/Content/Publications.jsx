@@ -23,19 +23,19 @@ function Publications() {
         <meta name="description" content="Explore the latest publications and research projects." />
         <meta name="keywords" content="publications, research, projects, articles" />
       </Helmet>
-      <div id='Publications' className='bg-white text-black dark:bg-slate-900 dark:text-white p-20 flex flex-col items-left justify-center'>
-        <h1 className="text-[52px] font-semibold mb-20 leading-normal uppercase text-white-500">
+      <div id='Publications' className='bg-white text-black dark:bg-slate-900 dark:text-white p-10 md:p-20 flex flex-col items-left justify-center'>
+        <h1 className="text-4xl md:text-[52px] font-semibold mb-10 md:mb-20 leading-normal uppercase text-white-500">
           Publications
           <span className="text-[15px] block normal-case font-medium text-gray-400 dark:text-gray-400">
-            <a href="https://scholar.google.fr/citations?user=FDWwdoQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline  font-medium"> 
+            <a href="https://scholar.google.fr/citations?user=FDWwdoQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline font-medium"> 
               <FaGoogleScholar/> Google Scholar
             </a> 
           </span>
         </h1>
         {ProjectsList.slice().reverse().map((project) => (
-          <div key={project.id} data-aos='fade-down' className='flex flex-row items-center justify-between mb-10 p-6 border-2 border-gray-300 rounded-lg shadow-lg'>
-            <div className='flex flex-col w-2/3'>
-              <h2 className='text-2xl font-bold mb-1'>{project.title}</h2>
+          <div key={project.id} data-aos='fade-down' className='flex flex-col md:flex-row items-center justify-between mb-10 p-6 border-2 border-gray-300 rounded-lg shadow-lg'>
+            <div className='flex flex-col w-full md:w-2/3'>
+              <h2 className='text-xl md:text-2xl font-bold mb-1'>{project.title}</h2>
               {project.youtube_message && (
                 <a target="_blank" href={project.youtube} className='text-green-500 hover:text-green-700 flex items-center mr-4'>
                   <FaYoutube className='mr-2' />
@@ -65,7 +65,7 @@ function Publications() {
               </div>
             </div>
             {project.image && (
-              <a target="_blank" href={project.github} className='w-1/3 h-40 flex items-center justify-center rounded-lg'>
+              <a target="_blank" href={project.github} className='w-full md:w-1/3 h-40 flex items-center justify-center rounded-lg mt-6 md:mt-0'>
                 <img 
                   className='w-full h-full object-contain rounded-lg' 
                   src={project.image} 
