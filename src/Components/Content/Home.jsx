@@ -53,7 +53,6 @@ function Home() {
     "Scientific machine learning",
     "Scientific simulation"
   ];
-
   return (
     <>
       <Helmet>
