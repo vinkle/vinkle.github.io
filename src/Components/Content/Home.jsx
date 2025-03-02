@@ -81,7 +81,7 @@ function Home() {
             itemProp="jobTitle" 
             className='text-lg lg:text-[18px] dark:text-gray-400 font-semibold mb-6 leading-normal'
           >
-            Senior Researcher (Chargé de recherche R&D) at IHU Strasbourg, France
+            Senior Researcher (Chargé de recherche R&D)
           </h2>        
           <p 
             data-aos='fade-down' 
