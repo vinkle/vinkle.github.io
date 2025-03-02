@@ -1,6 +1,7 @@
 ## Personal academic website 
-### Built using ReactJS, Vite, tailwind, and GitHub pages.
-####  Feel free to check out the readme file, copy, fork, and use.
+- Built using ReactJS, Vite, tailwind, and GitHub pages.
+- Feel free to check out the readme file, copy, fork, and use.
+
 ## Demo
 
 Visit the live demo: [Demo](https://vinkle.github.io/)
