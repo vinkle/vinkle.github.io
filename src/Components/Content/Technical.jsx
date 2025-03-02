@@ -12,7 +12,7 @@ const TechnicalSkills = () => {
   return (
     <>
       <Helmet>
-        <title>Vinkle Srivastav - Technical Skills</title>
+        <title>Vinkle Srivastav</title>
         <meta name="description" content="Explore Vinkle Srivastav's technical skills and expertise in various technologies and tools." />
         <meta name="keywords" content="Vinkle Srivastav, technical skills, expertise, technologies, tools, programming, software development" />
         <meta property="og:title" content="Vinkle Srivastav - Technical Skills" />
