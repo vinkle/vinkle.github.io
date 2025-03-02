@@ -40,6 +40,12 @@ const ResearchAndService = () => {
                 DSAI workshop 2021
               </a>.
             </li>
+            <li>
+              {' '}
+              <a href="https://miccai2021.org/en/OUR-VISION.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline" aria-label="MICCAI 2021 website">
+              Part of the local orgnizing team of MICCAI 2021
+              </a>.
+            </li>            
             <li>Program committee member at ECCV - Medical Computer Vision (ECCV-MCV) 2022.</li>
             <li>
               <strong className="font-semibold">Conference Reviewer:</strong>
