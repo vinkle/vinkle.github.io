@@ -12,9 +12,10 @@ To get started, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/vinkle/vinkle.github.io.git academic_website`
 2. Navigate to the project folder: `cd academic_website`
-3. Install dependencies: `npm install`
-4. Run the development server: `npm run dev`
-5. Open your browser and visit [http://localhost:5173](http://localhost:5173)
+3. Checkout the main branch: `git checkout main`
+4. Install dependencies: `npm install`
+5. Run the development server: `npm run dev`
+6. Open your browser and visit [http://localhost:5173](http://localhost:5173)
 
 ## Usage & Customization
 
