@@ -57,10 +57,10 @@ function Home() {
     <>
       <Helmet>
         <title>Vinkle Srivastav</title>
-        <meta name="description" content="Welcome to the homepage of Vinkle Srivastav, a senior researcher specializing in surgical data science and AI-driven solutions in healthcare." />
+        <meta name="description" content="Welcome to the homepage of Vinkle Srivastav, a Research Scientist specializing in surgical data science and AI-driven solutions in healthcare." />
         <meta name="keywords" content="Vinkle Srivastav, surgical data science, AI, healthcare, research" />
         <meta property="og:title" content="Vinkle Srivastav - Home" />
-        <meta property="og:description" content="Welcome to the homepage of Vinkle Srivastav, a senior researcher specializing in surgical data science and AI-driven solutions in healthcare." />
+        <meta property="og:description" content="Welcome to the homepage of Vinkle Srivastav, a Research Scientist specializing in surgical data science and AI-driven solutions in healthcare." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://vinkle.github.io/" />
       </Helmet>
@@ -81,13 +81,13 @@ function Home() {
             itemProp="jobTitle" 
             className='text-lg lg:text-[18px] dark:text-gray-400 font-semibold mb-6 leading-normal'
           >
-            Senior Researcher (Chargé de recherche R&D)
+            Research Scientist (Chargé de recherche R&D)
           </h2>        
           <p 
             data-aos='fade-down' 
             className='text-base lg:text-[16px] mb-6'
           >
-            I am a senior researcher at the <a href='https://camma.unistra.fr/' target='_blank' rel='noopener noreferrer' className='text-blue-400 font-bold hover:text-green-600'>CAMMA lab</a> in <a href='https://www.ihu-strasbourg.eu/' target='_blank' rel='noopener noreferrer' className='text-blue-400 font-bold hover:text-green-600'>IHU Strasbourg</a>, with a focus on surgical data science. I obtained my Ph.D. from the University of Strasbourg, where I worked under the guidance of <a href='https://camma.unistra.fr/npadoy/' target='_blank' rel='noopener noreferrer' className='text-blue-400 font-bold hover:text-green-600'>Prof. Nicolas Padoy</a>, specializing in unsupervised domain adaptation for human pose estimation in the operating room. Before that, I contributed to the development of physical and virtual reality simulators using computer vision and computer graphics for neurosurgical skill evaluation at the <a href='https://www.aiimsnets.org/' target='_blank' rel='noopener noreferrer' className='text-blue-400 font-bold hover:text-green-600'>NETS lab</a>, All-India Institute of Medical Science, Delhi, and the Indian Institute of Technology, Delhi.
+            I am a Research Scientist at the <a href='https://camma.unistra.fr/' target='_blank' rel='noopener noreferrer' className='text-blue-400 font-bold hover:text-green-600'>CAMMA lab</a> in <a href='https://www.ihu-strasbourg.eu/' target='_blank' rel='noopener noreferrer' className='text-blue-400 font-bold hover:text-green-600'>IHU Strasbourg</a>, with a focus on surgical data science. I obtained my Ph.D. from the University of Strasbourg, where I worked under the guidance of <a href='https://camma.unistra.fr/npadoy/' target='_blank' rel='noopener noreferrer' className='text-blue-400 font-bold hover:text-green-600'>Prof. Nicolas Padoy</a>, specializing in unsupervised domain adaptation for human pose estimation in the operating room. Before that, I contributed to the development of physical and virtual reality simulators using computer vision and computer graphics for neurosurgical skill evaluation at the <a href='https://www.aiimsnets.org/' target='_blank' rel='noopener noreferrer' className='text-blue-400 font-bold hover:text-green-600'>NETS lab</a>, All-India Institute of Medical Science, Delhi, and the Indian Institute of Technology, Delhi.
           </p>
           <div 
             data-aos='fade-down' 

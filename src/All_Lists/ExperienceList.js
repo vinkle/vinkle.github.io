@@ -1,10 +1,10 @@
 export const experiences = [
     {
       id: 1,
-      position: "Senior Researcher (Chargé de recherche R&D)",
+      position: "Research Scientist (Chargé de recherche R&D)",
       company: "IHU Strasbourg, University of Strasbourg, Strasbourg, France",
       timeFrame: "2022 - Ongoing",
-      description: "Senior researcher in the CAMMA group, a collaborative research team between IHU Strasbourg and the University of Strasbourg. Primary responsibilities include advancing novel methods in surgical data science, mentoring PhD students and interns, building collaborations with external labs, and developing novel educational modules to enhance knowledge dissemination in the field.",
+      description: "Research Scientist in the CAMMA group, a collaborative research team between IHU Strasbourg and the University of Strasbourg. Primary responsibilities include advancing novel methods in surgical data science, mentoring PhD students and interns, building collaborations with external labs, and developing novel educational modules to enhance knowledge dissemination in the field.",
     },
     {
       id: 2,
