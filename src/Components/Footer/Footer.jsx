@@ -21,10 +21,10 @@ function Footer() {
       ]
       
     return (
-        <footer className='md:flex md:px-10 lg:flex bg-white dark:bg-slate-800 text-black dark:text-white lg:px-48 px-4 py-5 justify-between border-t border-slate-800'>
-                <div className='md:flex lg:flex gap-10 '>
+        <footer className='md:flex md:px-10 lg:flex bg-white dark:bg-slate-800 text-black dark:text-white lg:px-24 px-4 py-6 justify-between border-t border-slate-800'>
+                <div className='md:flex lg:flex gap-20 '>
                     <div>
-                        <div className='flex space-x-4'>
+                        <div className='flex space-x-20'>
                             {social.map((social, index) => (
                                 <a key={index} target="_blank" href={social.link} className=' hover:text-green-800 transition-all duration-150 ease-in-out'>
                                 <div  className='text-[28px]'>
