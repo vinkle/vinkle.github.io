@@ -48,9 +48,57 @@ const Education = () => {
                       </div>
                       <h3 className="text-sm font-semibold text-gray-600 dark:text-gray-300">{exp.company}</h3>
                       <p className="mt-4 text-gray-600 dark:text-gray-300">{exp.description}</p>
-                      {exp.link && (
+
+                      {/* Combined Thesis Directors and Committee Section */}
+                      {(exp.supervisors || exp.committee) && (
+                        <div className="flex gap-4 mt-4">
+                          {/* Thesis Directors Section */}
+                          {exp.supervisors && (
+                            <div className="flex-1">
+                              <h4 className="font-semibold dark:text-gray-200">Thesis Directors:</h4>
+                              <ul className="list-disc dark:text-gray-200 list-inside">
+                                {exp.supervisors.map((supervisor, i) => (
+                                  <li key={i}>
+                                    <a
+                                      href={exp.supervisors_link[i]}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="text-blue-500 hover:underline dark:text-blue-400"
+                                    >
+                                      {supervisor}
+                                    </a>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
+
+                          {/* Thesis Committee Section */}
+                          {exp.committee && (
+                            <div className="flex-1">
+                              <h4 className="font-semibold dark:text-gray-200">Thesis Committee:</h4>
+                              <ul className="list-disc dark:text-gray-200 list-inside">
+                                {exp.committee.map((member, i) => (
+                                  <li key={i}>
+                                    <a
+                                      href={exp.committee_link[i]}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="text-blue-500 hover:underline dark:text-blue-400"
+                                    >
+                                      {member}
+                                    </a>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
+                        </div>
+                      )}
+
+                      {exp.thesis_link && (
                         <a
-                          href={exp.link}
+                          href={exp.thesis_link}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="mt-4 inline-flex items-center text-green-500 hover:underline"

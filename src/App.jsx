@@ -8,6 +8,7 @@ import Experience from './Components/Content/Experience'
 import Education from './Components/Content/Education'
 import TechnicalSkills from './Components/Content/Technical'
 import CandidatesAndInterns from './Components/Content/Supervision'
+import Fundings from './Components/Content/Fundings'
 //import EducationExperience from './Components/Content/EduExp'
 import ResearchAndService from './Components/Content/Service'
 import Teaching from './Components/Content/Teaching'
@@ -60,6 +61,7 @@ function App() {
           <Education />
           <Experience />
           <Teaching />
+          <Fundings />
           <CandidatesAndInterns />
           <Publications />
           <Talks />

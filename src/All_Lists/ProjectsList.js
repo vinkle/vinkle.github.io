@@ -19,6 +19,7 @@ import id_18 from "../assets/projects/id_18.png";
 import id_19 from "../assets/projects/id_19.png";   
 import id_20 from "../assets/projects/id_20.png";   
 import id_21 from "../assets/projects/id_21.png";   
+import id_22 from "../assets/projects/id_22.png";   
 
 const ProjectsList = [
     {
@@ -260,6 +261,20 @@ const ProjectsList = [
         "image": id_21,
         "arxiv": "https://arxiv.org/abs/2502.13883",
         "summary": "This work proposes PreViPS, a calibration-free multi-view multi-modal pretraining framework for surgical activity recognition, aligning 2D pose and vision embeddings across camera views. By introducing tokenized discrete pose embeddings and cross-modality geometric constraints, PreViPS enhances representation learning without requiring calibrated setups or advanced point-cloud processing. Experiments on OR datasets demonstrate its effectiveness in both multi-view and single-view settings, advancing surgical activity recognition in complex environments."
+    },
+    {
+        "id": 22,
+        "title": "Learning from Synchronization: Self-Supervised Uncalibrated Multi-View Person Association in Challenging Scenes",
+        "authors": "Keqi Chen, Vinkle Srivastav, Didier MUTTER, Nicolas Padoy",
+        "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "year": "2025",
+        "github": "https://github.com/CAMMA-public/Self-MVA",
+        "image": id_22,
+        "arxiv": "https://arxiv.org/",
+        "message": "CVPR 2025",
+        "youtube": "https://www.youtube.com",
+        "youtube_message": "Demo video",
+        "summary": "This paper introduces Self-MVA, a self-supervised method for multi-view person association without requiring annotations or calibrated cameras. It leverages cross-view image synchronization (determining if images are temporally aligned) to learn unified geometric and appearance features, combined with constraints like multi-view localization. Experiments on three benchmarks show it outperforms existing unsupervised and supervised approaches."
     }
 ]
 

@@ -26,11 +26,14 @@ const Teaching = () => {
         >
           Teaching Experience
           <span className="text-[20px] block normal-case font-medium text-gray-500 dark:text-gray-400">
-            Université de Strasbourg (Vacataire/CdE)
+            Université de Strasbourg (Vacataire).
+          </span>
+          <span className="text-[16px] block normal-case font-medium text-gray-500 dark:text-gray-400">
+            Taught with 50% theory and 50% practicals coursework.
           </span>
         </h1>
 
-        <div className="space-y-4">
+        <div className="space-y-1">
           {teachingItems.map((item, index) => (
             <article
               key={index}

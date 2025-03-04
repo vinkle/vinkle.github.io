@@ -32,7 +32,7 @@ function Navbar() {
         }, 100); // Small delay to allow the menu to close
     };
 
-    const navItems = ["Home", "News", "Education", "Experience", "Teaching", "Supervision", "Publications", "Talks", "Service", "Skills"];
+    const navItems = ["Home", "News", "Education", "Experience", "Teaching", "Fundings", "Supervision", "Publications", "Talks", "Service", "Skills"];
 
     const content = (
         <div className='lg:hidden fixed top-16 w-full h-screen bg-white dark:bg-slate-900 transition z-50'>
