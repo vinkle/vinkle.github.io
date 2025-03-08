@@ -36,7 +36,7 @@ export const fundingItems = [
           link: "https://www.linkedin.com/in/paolo-cabras-4ba985112/" 
         },
         { 
-          name: "Dr. Nicolas Padoy", 
+          name: "Prof. Nicolas Padoy", 
           link: "https://camma.unistra.fr/npadoy/" 
         }
       ]
