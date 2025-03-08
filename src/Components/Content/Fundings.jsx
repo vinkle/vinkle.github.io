@@ -46,7 +46,7 @@ const Fundings = () => {
                 </p>
                 <p>Duration: {item.duration}</p>
                 <p>
-                  {item.collaborators.length > 1 ? "Collaborators: " : "Collaborator: "}
+                  {item.collaborators.length > 1 ? "Co-PIs: " : "Co-PI: "}
                   {item.collaborators.map((collab, idx) => (
                     <React.Fragment key={idx}>
                       <a

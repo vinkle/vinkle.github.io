@@ -15,6 +15,10 @@ export const fundingItems = [
         { 
           name: "Dr. Amit Gupta", 
           link: "https://www.linkedin.com/in/amit-gupta-md-b806a0123/" 
+        },
+        { 
+          name: "Prof. Nicolas Padoy", 
+          link: "https://camma.unistra.fr/npadoy/" 
         }
       ]
     },
@@ -30,6 +34,10 @@ export const fundingItems = [
         { 
           name: "Dr. Paolo Cabras", 
           link: "https://www.linkedin.com/in/paolo-cabras-4ba985112/" 
+        },
+        { 
+          name: "Dr. Nicolas Padoy", 
+          link: "https://camma.unistra.fr/npadoy/" 
         }
       ]
     }
