@@ -3,7 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { fundingItems } from '../../All_Lists/FundingItems';
 import { Helmet } from 'react-helmet';
-
+//<p>Funding amount: {item.amount}</p>
 const Fundings = () => {
   useEffect(() => {
     AOS.init({ duration: 800, easing: 'ease-in-out', once: true });
@@ -45,7 +45,6 @@ const Fundings = () => {
                   Project on the <strong>{item.topic}</strong> in collaboration with {item.institution}.
                 </p>
                 <p>Duration: {item.duration}</p>
-                <p>Funding amount: {item.amount}</p>
                 <p>
                   {item.collaborators.length > 1 ? "Collaborators: " : "Collaborator: "}
                   {item.collaborators.map((collab, idx) => (
