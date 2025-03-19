@@ -44,7 +44,7 @@ export const researchInternships = [
     {
       name: 'Hadi Hammoud',
       linkedin_link: 'https://www.linkedin.com/in/hadi-hammoud-503706216/',
-      period: '[2024 -- ongoing]',
+      period: '[2024 -- 2025]',
       description: 'Master\'s research internship on "Exploring video self-supervised learning approaches for advancing 3d medical image analysis." [6 months]',
       image: Hadi_hammoud,
     },
