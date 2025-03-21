@@ -270,9 +270,9 @@ const ProjectsList = [
         "year": "2025",
         "github": "https://github.com/CAMMA-public/Self-MVA",
         "image": id_22,
-        "arxiv": "https://arxiv.org/",
+        "arxiv": "https://arxiv.org/abs/2503.13739",
         "message": "CVPR 2025",
-        "youtube": "https://www.youtube.com",
+        "youtube": "https://www.youtube.com/watch?v=5eAd6yUgdZg",
         "youtube_message": "Demo video",
         "summary": "This paper introduces Self-MVA, a self-supervised method for multi-view person association without requiring annotations or calibrated cameras. It leverages cross-view image synchronization (determining if images are temporally aligned) to learn unified geometric and appearance features, combined with constraints like multi-view localization. Experiments on three benchmarks show it outperforms existing unsupervised and supervised approaches."
     }
