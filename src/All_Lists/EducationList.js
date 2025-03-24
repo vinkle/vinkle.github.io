@@ -9,7 +9,7 @@ export const education = [
       supervisors_link: ["https://camma.unistra.fr/npadoy/", "https://www.linkedin.com/in/gangi-afshin-b2269239/"],
       committee: ["Prof. Gregory Hager", "Prof. Slobodan Ilic", "Prof. Vasileios Belagiannis", "Prof. Michel de Mathelin"],
       committee_link: ["https://www.cs.jhu.edu/hager/", "https://www.cs.cit.tum.de/en/camp/members/senior-affiliates/slobodan-ilic/", "https://www.lms.tf.fau.eu/person/vasileios-belagiannis/", "https://www.unistra.fr/equipe-presidentielle/michel-de-mathelin"],
-      thesis_link: "https://hal.science/tel-04012254/"
+      thesis_link: "https://drive.google.com/file/d/1bYM6p4hIzX_ZJBWCyH7li4MqGA1rGEu5/view?usp=sharing"
     },
     {
       id: 2,
