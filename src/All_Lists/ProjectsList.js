@@ -93,7 +93,7 @@ const ProjectsList = [
     {
         "id": 7,
         "title": "Neurosurgery apps: novel knowledge boosters",
-        "authors": "Manjul Tripathi, Rama Chandra Deo, Vinkle Srivastav, BABY Britty, Ramandeep Singh, Natesan Damodaran, SURI Ashish",
+        "authors": "Manjul Tripathi, Rama Chandra Deo, Vinkle Srivastav, Britty Baby, Ramandeep Singh, Natesan Damodaran, SURI Ashish",
         "booktitle": "Turkish Neurosurgery",
         "year": "2014",
         "github": "https://github.com/vinkle/Neurosurgery-Apps",
@@ -265,7 +265,7 @@ const ProjectsList = [
     {
         "id": 22,
         "title": "Learning from Synchronization: Self-Supervised Uncalibrated Multi-View Person Association in Challenging Scenes",
-        "authors": "Keqi Chen, Vinkle Srivastav, Didier MUTTER, Nicolas Padoy",
+        "authors": "Keqi Chen, Vinkle Srivastav, Didier Mutter, Nicolas Padoy",
         "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "year": "2025",
         "github": "https://github.com/CAMMA-public/Self-MVA",

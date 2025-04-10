@@ -53,7 +53,13 @@ function Publications() {
                   <p className='italic'>{project.message}</p>
                 </div>
               )}          
-              <p className='text-gray-700 dark:text-gray-300 mb-2'>{project.authors}</p>
+              <p className='text-gray-700 dark:text-gray-300 mb-2'>
+                {project.authors.split(/(Vinkle Srivastav)/g).map((part, index) => 
+                  part === 'Vinkle Srivastav' 
+                    ? <span key={index} className="font-bold text-blue-600 dark:text-teal-400">{part}</span>
+                    : part
+                )}
+              </p>
               <p className='text-gray-600 dark:text-gray-400 italic mb-2'>{project.booktitle}, {project.year}</p>
               <p className='text-gray-600 dark:text-gray-400 mb-4'>{project.summary}</p>
               <div className='flex items-center'>
