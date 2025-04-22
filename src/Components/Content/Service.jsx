@@ -50,7 +50,7 @@ const ResearchAndService = () => {
             <li>
               <strong className="font-semibold">Conference Reviewer:</strong>
               <ul className="list-disc list-inside ml-8 mt-2 space-y-2">
-                {['MICCAI: 2020-2024', 'CVPR: 2023-2025', 'IPCAI: 2022-2023', 'AAAI: 2025', 'ECCV: 2022', 'ICRA: 2022'].map((item, index) => (
+                {['NeurIPS: 2025', 'MICCAI: 2020-2024', 'CVPR: 2023-2025', 'IPCAI: 2022-2023', 'AAAI: 2025', 'ECCV: 2022', 'ICRA: 2022'].map((item, index) => (
                   <li key={index}>{item}</li>
                 ))}
               </ul>
