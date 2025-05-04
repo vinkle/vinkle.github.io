@@ -10,7 +10,7 @@ export const phdCandidates = [
       name: 'Idris Hamoud',
       linkedin_link: 'https://www.linkedin.com/in/idris-hamoud-a147a3140/',
       scholar_link: 'https://scholar.google.fr/citations?user=Af14BLoAAAAJ&hl=en&oi=ao',
-      period: '[2020 -- ongoing]',
+      period: '[2021 -- ongoing]',
       thesis: 'Thesis on "Data-efficient multimodal learning by exploiting scene semantics for operating room workflow monitoring."',
       image: idris_hamoud,
       keywords: ['self-supervised learning', 'robotic surgery', 'workflow monitoring'],
