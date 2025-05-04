@@ -33,7 +33,7 @@ const ResearchAndService = () => {
               : <strong className="font-semibold">Co-organizer</strong> for the past three years. The Surgical Data Science Summer School is a unique educational initiative (≈30% selection rate) designed to bridge the gap between clinicians and computer scientists, fostering collaboration at the intersection of medicine and technology. Through a hands-on interdisciplinary one-week intensive program, the participants engage with interdisciplinary international faculty, working in teams to develop AI-driven solutions with real clinical impact. With guidance from expert mentors, access to specialized state-of-the-art datasets, and advanced computing resources, the SDS Summer School aims to shape the next generation of AI-driven solutions in surgical data science and healthcare.
             </li>
             <li>Area chair for IPCAI 2025 and MICCAI 2025.</li>
-            <li>Award panel member for IPCAI 2023.</li>
+            <li>Award panel member for IPCAI 2023 and IPCAI 2025.</li>
             <li>
               Co-organizer of the{' '}
               <a href="https://dsai.icube.unistra.fr/index.php/Deep_Learning_Tutorial_2019" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline" aria-label="Visit the DSAI workshop 2021 website">
