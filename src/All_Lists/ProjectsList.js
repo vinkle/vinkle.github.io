@@ -20,6 +20,8 @@ import id_19 from "../assets/projects/id_19.png";
 import id_20 from "../assets/projects/id_20.png";   
 import id_21 from "../assets/projects/id_21.png";   
 import id_22 from "../assets/projects/id_22.png";   
+import id_23 from "../assets/projects/id_23.png";   
+import id_24 from "../assets/projects/id_24.png";   
 
 const ProjectsList = [
     {
@@ -31,7 +33,8 @@ const ProjectsList = [
         "github": "https://github.com/vinkle",
         "image": id_1,
         "arxiv": "https://www.researchgate.net/publication/265859540_Free-access_open-source_e-learning_in_comprehensive_neurosurgery_skills_training",
-        "summary": "This paper discusses the development and implementation of a free-access, open-source e-learning platform for comprehensive neurosurgery skills training, aimed at enhancing education and accessibility in the field."  
+        "summary": "This paper discusses the development and implementation of a free-access, open-source e-learning platform for comprehensive neurosurgery skills training, aimed at enhancing education and accessibility in the field.",
+        "type": "Journal"
     },
     {
         "id": 2,
@@ -42,7 +45,8 @@ const ProjectsList = [
         "github": "https://github.com/CAMMA-public/MVOR",
         "image": id_2,
         "arxiv": "https://arxiv.org/abs/1808.08180",
-        "summary": "MVOR introduces a multi-view RGB-D dataset for 2D and 3D human pose estimation in operating rooms, providing a valuable resource for surgical computer vision research."
+        "summary": "MVOR introduces a multi-view RGB-D dataset for 2D and 3D human pose estimation in operating rooms, providing a valuable resource for surgical computer vision research.",
+        "type": "Conference"
     },
     {
         "id": 3,
@@ -54,7 +58,8 @@ const ProjectsList = [
         "image": id_3,
         "arxiv": "https://arxiv.org/abs/1811.12296",
         "message": "Runner-up award in the bench-to-bedside category, IPCAI 2019",
-        "summary": "This paper compares state-of-the-art face detection methods in the operating room and proposes a self-supervised approach to improve accuracy in challenging surgical environments."
+        "summary": "This paper compares state-of-the-art face detection methods in the operating room and proposes a self-supervised approach to improve accuracy in challenging surgical environments.",
+        "type": "Journal"
     },
     {
         "id": 4,
@@ -65,7 +70,8 @@ const ProjectsList = [
         "github": "https://github.com/CAMMA-public/ORPose-Depth",
         "image": id_4,
         "arxiv": "https://arxiv.org/abs/2007.08340",
-        "summary": "The study explores human pose estimation using low-resolution depth images while preserving privacy, offering a solution for applications in privacy-sensitive environments like operating rooms."
+        "summary": "The study explores human pose estimation using low-resolution depth images while preserving privacy, offering a solution for applications in privacy-sensitive environments like operating rooms.",
+        "type": "Conference"
     },
     {
         "id": 5,
@@ -77,7 +83,8 @@ const ProjectsList = [
         "image": id_5,
         "arxiv": "https://arxiv.org/abs/2007.08354",
         "message": "Oral presentation at MICCAI 2020",
-        "summary": "This work presents a self-supervised learning framework for multi-person 2D/3D human pose estimation, leveraging unlabelled data to reduce annotation costs."
+        "summary": "This work presents a self-supervised learning framework for multi-person 2D/3D human pose estimation, leveraging unlabelled data to reduce annotation costs.",
+        "type": "Conference"
     },
     {
         "id": 6,
@@ -88,7 +95,8 @@ const ProjectsList = [
         "github": "https://github.com/CAMMA-public/ai4surgery",
         "image": id_6,
         "arxiv": "https://arxiv.org/pdf/2009.13411",
-        "summary": "The book chapter introduces neural and deep neural network learning techniques to medical professionals."
+        "summary": "The book chapter introduces neural and deep neural network learning techniques to medical professionals.",
+        "type": "Book Chapter"
     },
     {
         "id": 7,
@@ -99,7 +107,8 @@ const ProjectsList = [
         "github": "https://github.com/vinkle/Neurosurgery-Apps",
         "image": id_7,
         "arxiv": "https://pubmed.ncbi.nlm.nih.gov/25448196/",
-        "summary": "This article reviews neurosurgery apps as novel tools for enhancing knowledge and skills in neurosurgery, highlighting their potential in medical education."  
+        "summary": "This article reviews neurosurgery apps as novel tools for enhancing knowledge and skills in neurosurgery, highlighting their potential in medical education.",
+        "type": "Journal"
     },
     {
         "id": 8,
@@ -110,7 +119,8 @@ const ProjectsList = [
         "github": "https://github.com/CAMMA-public/SelfSupSurg",
         "image": id_8,
         "arxiv": "https://arxiv.org/abs/2207.00449",
-        "summary": "This paper provides a comprehensive analysis of self-supervised learning methods for surgical computer vision, highlighting their potential and challenges in the field."
+        "summary": "This paper provides a comprehensive analysis of self-supervised learning methods for surgical computer vision, highlighting their potential and challenges in the field.",
+        "type": "Journal"
     },
     {
         "id": 9,
@@ -123,7 +133,8 @@ const ProjectsList = [
         "arxiv": "https://arxiv.org/abs/2108.11801",
         "youtube": "https://www.youtube.com/watch?v=gqwPu9-nfGs",
         "youtube_message": "Demo video",
-        "summary": "This study proposes an unsupervised domain adaptation approach for clinician pose estimation and instance segmentation in operating rooms, addressing domain shift challenges."
+        "summary": "This study proposes an unsupervised domain adaptation approach for clinician pose estimation and instance segmentation in operating rooms, addressing domain shift challenges.",
+        "type": "Journal"
     },
     {
         "id": 10,
@@ -134,7 +145,8 @@ const ProjectsList = [
         "github": "https://github.com/CAMMA-public/SROR2",
         "image": id_10,
         "arxiv": "https://arxiv.org/abs/2312.12250",
-        "summary": "ST(OR)2 introduces a spatio-temporal object-level reasoning framework for activity recognition in operating rooms, improving understanding of surgical workflows."
+        "summary": "ST(OR)2 introduces a spatio-temporal object-level reasoning framework for activity recognition in operating rooms, improving understanding of surgical workflows.",
+        "type": "Conference"
     },
     {
         "id": 11,
@@ -145,7 +157,8 @@ const ProjectsList = [
         "github": "https://github.com/CAMMA-public/SurgVLP",
         "image": id_11,
         "arxiv": "https://arxiv.org/abs/2307.15220",
-        "summary": "This paper introduces SurgVLP, a multi-modal learning method using surgical video lectures, combining vision and language without manual annotations. It aligns video and text embeddings via contrastive learning, enabling zero-shot adaptation to tasks like tool, phase, and triplet recognition. This demonstrates versatile, transferable representations for surgical video analysis."
+        "summary": "This paper introduces SurgVLP, a multi-modal learning method using surgical video lectures, combining vision and language without manual annotations. It aligns video and text embeddings via contrastive learning, enabling zero-shot adaptation to tasks like tool, phase, and triplet recognition. This demonstrates versatile, transferable representations for surgical video analysis.",
+        "type": "Preprint"
     },
     {
         "id": 12,
@@ -156,7 +169,8 @@ const ProjectsList = [
         "github": "https://github.com/CAMMA-public/ScalingSurgicalSSL",
         "image": id_12,
         "arxiv": "https://arxiv.org/abs/2312.05968",
-        "summary": "The lack of large, annotated datasets is a major challenge in surgical data science, with Self-Supervised Learning (SSL) offering a solution by reducing reliance on labeled data. However, SSL's robustness to domain shifts and its downstream effectiveness depend heavily on pre-training dataset composition. Through extensive experimentation across diverse datasets, tasks, and settings, this work demonstrates the importance of dataset design for SSL, achieving state-of-the-art results on phase recognition benchmarks, with improvements of up to 2.2% on Cholec80 and 5.1% on AutoLaparo."
+        "summary": "The lack of large, annotated datasets is a major challenge in surgical data science, with Self-Supervised Learning (SSL) offering a solution by reducing reliance on labeled data. However, SSL's robustness to domain shifts and its downstream effectiveness depend heavily on pre-training dataset composition. Through extensive experimentation across diverse datasets, tasks, and settings, this work demonstrates the importance of dataset design for SSL, achieving state-of-the-art results on phase recognition benchmarks, with improvements of up to 2.2% on Cholec80 and 5.1% on AutoLaparo.",
+        "type": "Conference"
     },
     {
         "id": 13,
@@ -167,7 +181,8 @@ const ProjectsList = [
         "github": "https://github.com/CAMMA-public/med-moco",
         "image": id_13,
         "arxiv": "https://arxiv.org/abs/2402.14611",
-        "summary": "The study addresses dimensional collapse in self-supervised contrastive learning for medical image segmentation, proposing solutions to improve model performance."
+        "summary": "The study addresses dimensional collapse in self-supervised contrastive learning for medical image segmentation, proposing solutions to improve model performance.",
+        "type": "Conference"
     },
     {
         "id": 14,
@@ -181,7 +196,8 @@ const ProjectsList = [
         "message": "Poster presentation at CVPR 2024",
         "youtube": "https://www.youtube.com/watch?v=GAqhmUIr2E8",
         "youtube_message": "Demo video",
-        "summary": "This paper introduces SelfPose3d, a self-supervised method for 3D multi-person pose estimation from multi-view images, eliminating the need for 2D or 3D ground-truth poses. Using only multi-view images and pseudo 2D poses from an off-the-shelf estimator, it proposes two objectives: self-supervised 3D person localization and pose estimation, enhanced by an adaptive supervision attention mechanism to address pseudo-label inaccuracies. The approach achieves performance comparable to fully-supervised methods on benchmarks like Panoptic, Shelf, and Campus, demonstrating its effectiveness without labeled data."
+        "summary": "This paper introduces SelfPose3d, a self-supervised method for 3D multi-person pose estimation from multi-view images, eliminating the need for 2D or 3D ground-truth poses. Using only multi-view images and pseudo 2D poses from an off-the-shelf estimator, it proposes two objectives: self-supervised 3D person localization and pose estimation, enhanced by an adaptive supervision attention mechanism to address pseudo-label inaccuracies. The approach achieves performance comparable to fully-supervised methods on benchmarks like Panoptic, Shelf, and Campus, demonstrating its effectiveness without labeled data.",
+        "type": "Conference"
     },
     {
         "id": 15,
@@ -192,7 +208,8 @@ const ProjectsList = [
         "github": "https://github.com/CAMMA-public/hecvl",
         "image": id_15,
         "arxiv": "https://arxiv.org/abs/2405.10075",
-        "summary": "HECVL proposes a hierarchical video-language pretraining framework for zero-shot surgical phase recognition, enhancing surgical workflow analysis."
+        "summary": "HECVL proposes a hierarchical video-language pretraining framework for zero-shot surgical phase recognition, enhancing surgical workflow analysis.",
+        "type": "Conference"
     },
     {
         "id": 16,
@@ -204,7 +221,8 @@ const ProjectsList = [
         "image": id_16,
         "arxiv": "https://arxiv.org/abs/2312.10251",
         "message": "Best paper award IPCAI 2024",
-        "summary": "This paper advances surgical visual question answering (VQA) by incorporating scene graph knowledge, improving contextual understanding in surgical settings."
+        "summary": "This paper advances surgical visual question answering (VQA) by incorporating scene graph knowledge, improving contextual understanding in surgical settings.",
+        "type": "Journal"
     },
     {
         "id": 17,
@@ -216,7 +234,8 @@ const ProjectsList = [
         "image": id_17,
         "arxiv": "https://arxiv.org/abs/2410.00263",
         "message": "Spotlight NeurIPS 2024",
-        "summary": "This work proposes PeskaVLP, a novel surgical video-language pretraining framework addressing the domain gap and data scarcity in surgical VLP. By leveraging large language models for hierarchical knowledge augmentation and combining visual self-supervision with a Dynamic Time Warping-based loss, PeskaVLP enhances cross-modal procedural alignment and reduces overfitting. Experiments on surgical datasets demonstrate its superior zero-shot transfer performance and generalist visual representations, advancing surgical scene understanding."
+        "summary": "This work proposes PeskaVLP, a novel surgical video-language pretraining framework addressing the domain gap and data scarcity in surgical VLP. By leveraging large language models for hierarchical knowledge augmentation and combining visual self-supervision with a Dynamic Time Warping-based loss, PeskaVLP enhances cross-modal procedural alignment and reduces overfitting. Experiments on surgical datasets demonstrate its superior zero-shot transfer performance and generalist visual representations, advancing surgical scene understanding.",
+        "type": "Conference"
     },
     {
         "id": 18,
@@ -227,7 +246,8 @@ const ProjectsList = [
         "github": "https://github.com/minghu0830/OphCLIP",
         "image": id_18,
         "arxiv": "https://arxiv.org/abs/2411.15421",
-        "summary": "OphClip proposes a hierarchical retrieval-augmented learning framework for ophthalmic surgical video-language pretraining, enhancing surgical video analysis."
+        "summary": "OphClip proposes a hierarchical retrieval-augmented learning framework for ophthalmic surgical video-language pretraining, enhancing surgical video analysis.",
+        "type": "Preprint"
     },
     {
         "id": 19,
@@ -238,18 +258,20 @@ const ProjectsList = [
         "github": "https://github.com/CAMMA-public/Surg-FTDA",
         "image": id_19,
         "arxiv": "https://arxiv.org/abs/2501.09555",
-        "summary": "This work introduces Surg-FTDA, a few-shot text-driven adaptation approach for surgical workflow analysis, reducing reliance on large annotated datasets. By aligning image embeddings with text embeddings and training a text-driven decoder, Surg-FTDA bridges the modality gap and enables tasks like image captioning, triplet recognition, and phase recognition without paired image-text data. Results demonstrate its superior performance and generalization across tasks, offering a scalable solution for surgical workflow analysis."
+        "summary": "This work introduces Surg-FTDA, a few-shot text-driven adaptation approach for surgical workflow analysis, reducing reliance on large annotated datasets. By aligning image embeddings with text embeddings and training a text-driven decoder, Surg-FTDA bridges the modality gap and enables tasks like image captioning, triplet recognition, and phase recognition without paired image-text data. Results demonstrate its superior performance and generalization across tasks, offering a scalable solution for surgical workflow analysis.",
+        "type": "Journal"
     },
     {
         "id": 20,
         "title": "When do they StOP?: A First Step Towards Automatically Identifying Team Communication in the Operating Room",
         "authors": "Keqi Chen, Lilien Schewski, Vinkle Srivastav,  Joel Lavanchy,  Didier Mutter,  Guido Beldi,  Sandra Keller,  Nicolas Padoy ",
-        "booktitle": "International Conference on Information Processing in Computer-Assisted Interventions (IPCAI)",
+        "booktitle": "International journal of computer assisted radiology and surgery(IJCARS)",
         "year": "2025",
         "github": "https://github.com/CAMMA-public/Team-OR/",
         "image": id_20,
         "arxiv": "https://www.arxiv.org/abs/2502.08299",
-        "summary": "This work introduces Team-OR, dataset with over 100 hours of multi-view surgical videos, temporally annotated for team communication briefings like Time-out and StOP?-protocol. The proposed group activity detection approach, combining scene context and action features, outperforms state-of-the-art methods, highlighting the importance of group activity analysis in the OR. This work advances computer-assisted surgical workflow analysis and intra-operative support systems, addressing a critical gap in OR team communication research."
+        "summary": "This work introduces Team-OR, dataset with over 100 hours of multi-view surgical videos, temporally annotated for team communication briefings like Time-out and StOP?-protocol. The proposed group activity detection approach, combining scene context and action features, outperforms state-of-the-art methods, highlighting the importance of group activity analysis in the OR. This work advances computer-assisted surgical workflow analysis and intra-operative support systems, addressing a critical gap in OR team communication research.",
+        "type": "Journal"
     },
     {
         "id": 21,
@@ -260,7 +282,8 @@ const ProjectsList = [
         "github": "https://github.com/CAMMA-public/PreViPS",
         "image": id_21,
         "arxiv": "https://arxiv.org/abs/2502.13883",
-        "summary": "This work proposes PreViPS, a calibration-free multi-view multi-modal pretraining framework for surgical activity recognition, aligning 2D pose and vision embeddings across camera views. By introducing tokenized discrete pose embeddings and cross-modality geometric constraints, PreViPS enhances representation learning without requiring calibrated setups or advanced point-cloud processing. Experiments on OR datasets demonstrate its effectiveness in both multi-view and single-view settings, advancing surgical activity recognition in complex environments."
+        "summary": "This work proposes PreViPS, a calibration-free multi-view multi-modal pretraining framework for surgical activity recognition, aligning 2D pose and vision embeddings across camera views. By introducing tokenized discrete pose embeddings and cross-modality geometric constraints, PreViPS enhances representation learning without requiring calibrated setups or advanced point-cloud processing. Experiments on OR datasets demonstrate its effectiveness in both multi-view and single-view settings, advancing surgical activity recognition in complex environments.",
+        "type": "Preprint"
     },
     {
         "id": 22,
@@ -274,7 +297,32 @@ const ProjectsList = [
         "message": "Poster presentation at CVPR 2025",
         "youtube": "https://www.youtube.com/watch?v=5eAd6yUgdZg",
         "youtube_message": "Demo video",
-        "summary": "This paper introduces Self-MVA, a self-supervised method for multi-view person association without requiring annotations or calibrated cameras. It leverages cross-view image synchronization (determining if images are temporally aligned) to learn unified geometric and appearance features, combined with constraints like multi-view localization. Experiments on three benchmarks show it outperforms existing unsupervised and supervised approaches."
+        "summary": "This paper introduces Self-MVA, a self-supervised method for multi-view person association without requiring annotations or calibrated cameras. It leverages cross-view image synchronization (determining if images are temporally aligned) to learn unified geometric and appearance features, combined with constraints like multi-view localization. Experiments on three benchmarks show it outperforms existing unsupervised and supervised approaches.",
+        "type": "Conference"
+    },
+    {
+        "id": 23,
+        "title": "Neuro-endoscope box trainer",
+        "authors": "Ramandeep Singh, Britty Baby, Vinkle Srivastav, Ashish Suri, Subhashis Banerjee, Prem K Kalra, Sanjiva Prasad, Subodh Kumar, Kolin Paul, Sneh Anand",
+        "booktitle": "US Patent",
+        "year": "2021",
+        "image": id_23,
+        "arxiv": "https://patentimages.storage.googleapis.com/6a/f7/ac/03b89fcc172514/US10902745.pdf",
+        "message": "Patent number: US 10,902,745 B2",
+        "summary": "This patent introduces a neuro-endoscope box trainer, a device for training surgeons to use neuro-endoscopes effectively and safely.",
+        "type": "Patent"
+    },
+    {
+        "id": 24,
+        "title": "Neuro-drill-stencil trainer",
+        "authors": "Ramandeep Singh, Baby Britty, Vinkle Srivastav, Ashish Suri, Subhashis Banerjee, Prem K Karla, Sanjiva Prasad, Subodh Kumar, Kolin Paul, Sneth Anand",
+        "booktitle": "US Patent",
+        "year": "2017",
+        "image": id_24,
+        "arxiv": "https://patentimages.storage.googleapis.com/c4/ee/e0/9d994ee25053e3/US20170330485A1.pdf",
+        "message": "Pub. No: US 2017/0330485 A1",
+        "summary": "This patent introduces a neuro-drill-stencil trainer for demarcation of drilling on flat and curved bones.",
+        "type": "Patent"
     }
 ]
 
