@@ -320,7 +320,7 @@ const ProjectsList = [
         "year": "2017",
         "image": id_24,
         "arxiv": "https://patentimages.storage.googleapis.com/c4/ee/e0/9d994ee25053e3/US20170330485A1.pdf",
-        "message": "Pub. No: US 2017/0330485 A1",
+        "message": "Publication number: US 2017/0330485 A1",
         "summary": "This patent introduces a neuro-drill-stencil trainer for demarcation of drilling on flat and curved bones.",
         "type": "Patent"
     }
