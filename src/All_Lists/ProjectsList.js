@@ -309,7 +309,7 @@ const ProjectsList = [
         "image": id_23,
         "arxiv": "https://patentimages.storage.googleapis.com/6a/f7/ac/03b89fcc172514/US10902745.pdf",
         "message": "Patent number: US 10,902,745 B2",
-        "summary": "This patent introduces a neuro-endoscope box trainer, a device for training surgeons to use neuro-endoscopes effectively and safely.",
+        "summary": "This patent introduces a neuro-endoscope box trainer, an electro-mechanical box trainer for neurosurgeons to practice endoscopic skills.",
         "type": "Patent"
     },
     {
