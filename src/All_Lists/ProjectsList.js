@@ -152,13 +152,13 @@ const ProjectsList = [
         "id": 11,
         "title": "Learning multi-modal representations by watching hundreds of surgical video lectures",
         "authors": "Kun Yuan, Vinkle Srivastav, Tong Yu, Joel L Lavanchy, Pietro Mascagni, Nassir Navab, Nicolas Padoy",
-        "booktitle": "arXiv:2307.15220",
-        "year": "2023",
+        "booktitle": "Medical Image Analysis",
+        "year": "2025",
         "github": "https://github.com/CAMMA-public/SurgVLP",
         "image": id_11,
         "arxiv": "https://arxiv.org/abs/2307.15220",
         "summary": "This paper introduces SurgVLP, a multi-modal learning method using surgical video lectures, combining vision and language without manual annotations. It aligns video and text embeddings via contrastive learning, enabling zero-shot adaptation to tasks like tool, phase, and triplet recognition. This demonstrates versatile, transferable representations for surgical video analysis.",
-        "type": "Preprint"
+        "type": "Journal"
     },
     {
         "id": 12,
