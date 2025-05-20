@@ -22,7 +22,7 @@ import id_21 from "../assets/projects/id_21.png";
 import id_22 from "../assets/projects/id_22.png";   
 import id_23 from "../assets/projects/id_23.png";   
 import id_24 from "../assets/projects/id_24.png";   
-
+import id_25 from "../assets/projects/id_25.png";   
 const ProjectsList = [
     {
         "id": 1,
@@ -323,7 +323,19 @@ const ProjectsList = [
         "message": "Publication number: US 2017/0330485 A1",
         "summary": "This patent introduces a neuro-drill-stencil trainer for demarcation of drilling on flat and curved bones.",
         "type": "Patent"
-    }
+    },
+    {
+        "id": 25,
+        "title": "A Skull-Adaptive Framework for AI-Based 3D Transcranial Focused Ultrasound Simulation",
+        "authors": "Vinkle Srivastav, Juliette Puel, Jonathan Vappou, Elijah Van Houten, Paolo Cabras, Nicolas Padoy",
+        "booktitle": "arXiv preprint arXiv:2505.12998",
+        "year": "2025",
+        "github": "https://github.com/CAMMA-public/TFUScapes",
+        "image": id_25,
+        "arxiv": "https://arxiv.org/abs/2505.12998",
+        "summary": "Transcranial focused ultrasound (tFUS) enables precise, non-invasive brain therapy but is hindered by complex skull-induced wave distortions. Traditional numerical simulations are accurate but computationally intensive, limiting clinical scalability. To address this, we introduce TFUScapes, a large-scale, anatomically realistic simulation dataset, and DeepTFUS, a transducer-aware deep learning model for fast 3D pressure prediction. Our approach combines physics-based modeling with neural networks to achieve high-fidelity results with significant speedups, supporting scalable and personalized tFUS planning.",
+        "type": "Preprint"
+    },
 ]
 
 export default ProjectsList
