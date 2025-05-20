@@ -1,4 +1,3 @@
-import { React, useEffect } from 'react';
 import { AiFillGithub } from 'react-icons/ai';
 import { FaGoogleScholar } from "react-icons/fa6";
 import { FaLinkedinIn, FaRegFilePdf } from 'react-icons/fa';
@@ -9,9 +8,6 @@ import { BiMailSend } from 'react-icons/bi';
 import { Helmet } from 'react-helmet';
 
 function Home() {  
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
 
   const social = [
     {

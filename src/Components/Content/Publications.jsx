@@ -1,6 +1,4 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React from 'react';
 import ProjectsList from '../../All_Lists/ProjectsList';
 import { AiFillGithub } from 'react-icons/ai';
 import { SiArxiv } from "react-icons/si";
@@ -10,9 +8,6 @@ import { FaYoutube } from "react-icons/fa";
 import { Helmet } from 'react-helmet';
 
 function Publications() {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
 
   // Group projects by type
   const groupedProjects = ProjectsList.reduce((acc, project) => {
@@ -56,7 +51,7 @@ function Publications() {
                 {type}
               </h2>
               {projects.slice().reverse().map((project) => (
-                <article key={project.id} data-aos='fade-down' className='flex flex-col md:flex-row items-start justify-between mb-8 p-6 border-2 border-gray-300 rounded-lg shadow-lg'>
+                <article key={project.id} className='flex flex-col md:flex-row items-start justify-between mb-8 p-6 border-2 border-gray-300 rounded-lg shadow-lg'>
                   {/* Existing article content remains the same */}
                   <div className='flex flex-col w-full md:w-2/3'>
                     <h2 className='text-xl md:text-2xl font-bold mb-2'>{project.title}</h2>
