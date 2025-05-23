@@ -22,7 +22,7 @@ import id_21 from "../assets/projects/id_21.png";
 import id_22 from "../assets/projects/id_22.png";   
 import id_23 from "../assets/projects/id_23.png";   
 import id_24 from "../assets/projects/id_24.png";   
-import id_25 from "../assets/projects/id_25.png";   
+import id_25 from "../assets/projects/id_25.gif";   
 const ProjectsList = [
     {
         "id": 1,
