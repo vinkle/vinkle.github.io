@@ -67,7 +67,7 @@ function News() {
                           )}
                         </div>
                         {item.image && (
-                          <div className="md:w-30 flex-shrink-0">
+                          <div className="w-full md:w-1/5 mt-6 flex-shrink-1">
                             <img 
                               src={item.image} 
                               alt="TFUScapes dataset: 3D tFUS simulation" 
