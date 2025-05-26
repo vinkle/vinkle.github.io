@@ -17,7 +17,7 @@ const Education = () => {
         <meta property="og:url" content="https://vinkle.github.io/" />
       </Helmet>
       <section className="min-h-screen py-20 bg-white dark:bg-gray-900">
-        <div id='Education' className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div id='Education' className="max-w-7xl mx-auto px-4 sm:px-4 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
