@@ -258,6 +258,7 @@ const ProjectsList = [
         "github": "https://github.com/CAMMA-public/Surg-FTDA",
         "image": id_19,
         "arxiv": "https://arxiv.org/abs/2501.09555",
+        "message": "Joint winner for the best paper award in the machine learning for CAI track, IPCAI 2025",
         "summary": "This work introduces Surg-FTDA, a few-shot text-driven adaptation approach for surgical workflow analysis, reducing reliance on large annotated datasets. By aligning image embeddings with text embeddings and training a text-driven decoder, Surg-FTDA bridges the modality gap and enables tasks like image captioning, triplet recognition, and phase recognition without paired image-text data. Results demonstrate its superior performance and generalization across tasks, offering a scalable solution for surgical workflow analysis.",
         "type": "Journal"
     },
