@@ -42,7 +42,7 @@ export const phdCandidates = [
       linkedin_link: 'https://www.linkedin.com/in/idris-hamoud-a147a3140/',
       scholar_link: 'https://scholar.google.fr/citations?user=Af14BLoAAAAJ&hl=en&oi=ao',
       period: '[2022 -- 2025]',
-      thesis: 'Successfully defended the thesis titled "Data-efficient multimodal learning by exploiting scene semantics for operating room workflow monitoring on 25th June 2025"',
+      thesis: 'Successfully defended the thesis titled "Data-efficient multimodal learning by exploiting scene semantics for operating room workflow monitoring" on 25th June 2025 at the IHU Strasbourg, France',
       image: idris_hamoud,
       keywords: ['self-supervised learning', 'robotic surgery', 'workflow monitoring'],
       researchArea: 'Surgical Workflow Analysis',
