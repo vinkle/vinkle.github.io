@@ -7,16 +7,6 @@ import Shi_li from "../assets/phds/Shi_li.jpeg";
 
 export const phdCandidates = [
     {
-      name: 'Idris Hamoud',
-      linkedin_link: 'https://www.linkedin.com/in/idris-hamoud-a147a3140/',
-      scholar_link: 'https://scholar.google.fr/citations?user=Af14BLoAAAAJ&hl=en&oi=ao',
-      period: '[2021 -- ongoing]',
-      thesis: 'Thesis on "Data-efficient multimodal learning by exploiting scene semantics for operating room workflow monitoring."',
-      image: idris_hamoud,
-      keywords: ['self-supervised learning', 'robotic surgery', 'workflow monitoring'],
-      researchArea: 'Surgical Workflow Analysis',
-    },
-    {
       name: 'Kun Yuan',
       linkedin_link: 'https://www.linkedin.com/in/kun-yuan-b2425219b/',
       scholar_link: 'https://scholar.google.com/citations?user=zId4EqoAAAAJ',
@@ -47,4 +37,14 @@ export const phdCandidates = [
       thesis: 'Thesis on "Multi-modality learning from video & text for large scale surgical video analysis."',
       image: Shi_li,
     },
+    {
+      name: 'Idris Hamoud',
+      linkedin_link: 'https://www.linkedin.com/in/idris-hamoud-a147a3140/',
+      scholar_link: 'https://scholar.google.fr/citations?user=Af14BLoAAAAJ&hl=en&oi=ao',
+      period: '[2022 -- 2025]',
+      thesis: 'Successfully defended the thesis titled "Data-efficient multimodal learning by exploiting scene semantics for operating room workflow monitoring on 25th June 2025"',
+      image: idris_hamoud,
+      keywords: ['self-supervised learning', 'robotic surgery', 'workflow monitoring'],
+      researchArea: 'Surgical Workflow Analysis',
+    },    
   ];

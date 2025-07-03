@@ -241,13 +241,13 @@ const ProjectsList = [
         "id": 18,
         "title": "Ophclip: Hierarchical retrieval-augmented learning for ophthalmic surgical video-language pretraining",
         "authors": "Ming Hu, Kun Yuan, Yaling Shen, Feilong Tang, Xiaohao Xu, Lin Zhou, Wei Li, Ying Chen, Zhongxing Xu, Zelin Peng, Siyuan Yan, Vinkle Srivastav, Diping Song, Tianbin Li, Danli Shi, Jin Ye, Nicolas Padoy, Nassir Navab, Junjun He",
-        "booktitle": "arXiv preprint arXiv:2411.15421",
-        "year": "2024",
+        "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+        "year": "2025",
         "github": "https://github.com/minghu0830/OphCLIP",
         "image": id_18,
         "arxiv": "https://arxiv.org/abs/2411.15421",
         "summary": "OphClip proposes a hierarchical retrieval-augmented learning framework for ophthalmic surgical video-language pretraining, enhancing surgical video analysis.",
-        "type": "Preprint"
+        "type": "Conference"
     },
     {
         "id": 19,
