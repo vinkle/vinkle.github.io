@@ -23,6 +23,11 @@ import id_22 from "../assets/projects/id_22.png";
 import id_23 from "../assets/projects/id_23.png";   
 import id_24 from "../assets/projects/id_24.png";   
 import id_25 from "../assets/projects/id_25.gif";   
+import id_26 from "../assets/projects/id_26.png";   
+import id_27 from "../assets/projects/id_27.png";   
+import id_28 from "../assets/projects/id_28.png";   
+import id_29 from "../assets/projects/id_29.png";      
+
 const ProjectsList = [
     {
         "id": 1,
@@ -337,6 +342,55 @@ const ProjectsList = [
         "summary": "Transcranial focused ultrasound (tFUS) enables precise, non-invasive brain therapy but is hindered by complex skull-induced wave distortions. Traditional numerical simulations are accurate but computationally intensive, limiting clinical scalability. To address this, we introduce TFUScapes, a large-scale, anatomically realistic simulation dataset, and DeepTFUS, a transducer-aware deep learning model for fast 3D pressure prediction. Our approach combines physics-based modeling with neural networks to achieve high-fidelity results with significant speedups, supporting scalable and personalized tFUS planning.",
         "type": "Preprint"
     },
+    {
+        "id": 26,
+        "title": "Adaptation of Multi-modal Representation Models for Multi-task Surgical Computer Vision",
+        "authors": "Soham Walimbe, Britty Baby, Vinkle Srivastav, Nicolas Padoy",
+        "booktitle": "International conference on medical image computing and computer-assisted intervention(MICCAI)",
+        "year": "2025",
+        "github": "https://github.com/CAMMA-public/MML-SurgAdapt",
+        "image": id_26,
+        "arxiv": "https://arxiv.org/abs/2507.05020",
+        "summary": "This paper introduces, MML-SurgAdapt, a unified multi-task framework for surgical AI that uses Vision-Language Models (CLIP) and natural language prompts to perform diverse tasks within a single procedure. By extending Single Positive Multi-Label (SPML) learning, it handles partially annotated data across tasks. The approach achieves competitive performance while reducing annotation needs by 23%, offering a scalable solution for surgical computer vision.",
+        "type": "Conference"
+    },    
+    {
+        "id": 27,
+        "title": "Multi-modal Representations for Fine-grained Multi-label Critical View of Safety Recognition",
+        "authors": "Britty Baby, Vinkle Srivastav, Pooja P. Jain, Kun Yuan, Pietro Mascagni, Nicolas Padoy",
+        "booktitle": "International conference on medical image computing and computer-assisted intervention(MICCAI)",
+        "year": "2025",
+        "github": "https://github.com/CAMMA-public/CVS-AdaptNet",
+        "image": id_27,
+        "arxiv": "https://arxiv.org/abs/2507.05007",
+        "summary": "This paper introduces CVS-AdaptNet, a multi-label, multi-modal framework for automating Critical View of Safety (CVS) recognition in laparoscopic cholecystectomy using textual prompts. Unlike prior models reliant on costly spatial annotations, it aligns image features with positive and negative textual descriptions of each CVS criterion. Adapted from PeskaVLP and evaluated on Endoscapes-CVS201, CVS-AdaptNet outperforms vision-only baselines, demonstrating the promise of text-guided multi-modal learning for fine-grained surgical tasks.",
+        "type": "Conference"
+    },    
+    {
+        "id": 28,
+        "title": "Recognizing Surgical Phases Anywhere: Few-Shot Test-time Adaptation and Task-graph Guided Refinement",
+        "authors": "Kun Yuan, Tingxuan Chen, Shi Li, Joel L. Lavanchy, Christian Heiliger, Ege Özsoy, Yiming Huang, Long Bai, Nassir Navab, Vinkle Srivastav, Hongliang Ren, Nicolas Padoy",
+        "booktitle": "International conference on medical image computing and computer-assisted intervention(MICCAI)",
+        "year": "2025",
+        "github": "https://github.com/CAMMA-public/SPA",
+        "image": id_28,
+        "arxiv": "https://arxiv.org/abs/2506.20254",
+        "summary": "This paper introduces Surgical Phase Anywhere (SPA), a lightweight framework for adaptable surgical workflow understanding across institutions and procedures. SPA combines few-shot spatial adaptation, diffusion-based temporal modeling, and dynamic test-time adaptation to align foundation models with institution-specific surgical phases. By leveraging natural language definitions, minimal annotations, and task-graph priors, SPA achieves state-of-the-art performance in few-shot settings—outperforming full-shot baselines and enabling scalable, generalizable phase recognition.",
+        "type": "Conference"
+    },    
+    {
+        "id": 29,
+        "title": "Learning from Sparse Point Labels for Dense Carcinosis Localization in Advanced Ovarian Cancer Assessment",
+        "authors": "Farahdiba Zarin, Riccardo Oliva, VinkleSrivastav, Armine Vardazaryan, Andrea Rosati, Alice Zampolini Faustini, Giovanni Scambia, Anna Fagotti, Pietro Mascagni, Nicolas Padoy",
+        "booktitle": "International conference on medical image computing and computer-assisted intervention(MICCAI)",
+        "year": "2025",
+        "github": "https://github.com/CAMMA-public/Carcino-Loc",
+        "image": id_29,
+        "arxiv": "https://arxiv.org/",
+        "summary": "This paper introduces a novel approach for sparse keypoint localization in diagnostic laparoscopic videos, addressing the challenge of learning dense predictions from minimal point-level annotations. Focusing on carcinosis keypoints for ovarian cancer diagnostics, the method formulates the task as sparse heatmap regression and proposes the Crag and Tail loss, which balances learning from sparse positives while mitigating false negatives. Extensive ablations show its effectiveness, offering a promising direction for dense localization in low-annotation medical settings.",
+        "type": "Conference"
+    },    
+    
 ]
 
 export default ProjectsList
