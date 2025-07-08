@@ -381,7 +381,7 @@ const ProjectsList = [
     {
         "id": 29,
         "title": "Learning from Sparse Point Labels for Dense Carcinosis Localization in Advanced Ovarian Cancer Assessment",
-        "authors": "Farahdiba Zarin, Riccardo Oliva, VinkleSrivastav, Armine Vardazaryan, Andrea Rosati, Alice Zampolini Faustini, Giovanni Scambia, Anna Fagotti, Pietro Mascagni, Nicolas Padoy",
+        "authors": "Farahdiba Zarin, Riccardo Oliva, Vinkle Srivastav, Armine Vardazaryan, Andrea Rosati, Alice Zampolini Faustini, Giovanni Scambia, Anna Fagotti, Pietro Mascagni, Nicolas Padoy",
         "booktitle": "International conference on medical image computing and computer-assisted intervention(MICCAI)",
         "year": "2025",
         "github": "https://github.com/CAMMA-public/Carcino-Loc",
