@@ -1,7 +1,7 @@
 import { AiFillGithub } from 'react-icons/ai';
 import { FaGoogleScholar } from "react-icons/fa6";
 import { FaLinkedinIn, FaRegFilePdf } from 'react-icons/fa';
-import img from '../../assets/profile.jpeg';
+import img from '../../assets/pp_pic_1.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { BiMailSend } from 'react-icons/bi';
