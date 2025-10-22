@@ -34,7 +34,7 @@ export const phdCandidates = [
       linkedin_link: 'https://www.linkedin.com/in/kun-yuan-b2425219b/',
       scholar_link: 'https://scholar.google.com/citations?user=zId4EqoAAAAJ',
       period: '[2022 -- ongoing]',
-      thesis: 'Thesis on "Large-scale multi-modality learning for surgical computer vision."',
+      thesis: 'Thesis on "Large-scale multi-modality learning for surgical computer vision. Joint Ph.D. student between Université de Strasbourg and Technische Universität München; co-supervised by Prof. Nicolas Padoy and Prof. Nassir Navab"',
       image: Kun_yuan,
     },    
     {
