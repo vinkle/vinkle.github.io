@@ -36,7 +36,6 @@ function App() {
       <Helmet>
         <title>Vinkle Srivastav</title>
         <meta name="description" content="Vinkle Srivastav's personal website." />
-        <meta name="keywords" content="Vinkle Srivastav, personal website, research, publications, talks, service, skills" />
       </Helmet>
       {loading ?
         <div className="bg-slate-900 h-[100vh] flex justify-center items-center">
