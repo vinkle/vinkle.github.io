@@ -1,9 +1,16 @@
 export const experiences = [
     {
       id: 1,
+      position: "Assistant Professor",
+      company: "Wadhwani School of Data Science and AI, IIT Madras ",
+      timeFrame: "March 2026 - Present",
+      description: "Assistant Professor at IIT Madras working in Surgical AI.",
+    },
+    {
+      id: 1,
       position: "Research Scientist (Chargé de recherche R&D)",
       company: "IHU Strasbourg, University of Strasbourg, Strasbourg, France",
-      timeFrame: "Sept 2022 - Present",
+      timeFrame: "Sept 2022 - March 2026",
       description: "Research Scientist in the CAMMA group, a collaborative research team between IHU Strasbourg and the University of Strasbourg. Primary responsibilities include advancing novel methods in surgical data science, mentoring PhD students and interns, building collaborations with external labs, and developing novel educational modules to enhance knowledge dissemination in the field.",
     },
     {
