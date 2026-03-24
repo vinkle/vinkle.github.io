@@ -2,7 +2,7 @@ import React from 'react'
 import { AiFillGithub } from 'react-icons/ai'
 import { FaLinkedinIn } from 'react-icons/fa'
 import { FaGoogleScholar } from 'react-icons/fa6'
-import { Helmet } from 'react-helmet';
+
 function Footer() {
 
     const social = [
@@ -17,24 +17,25 @@ function Footer() {
         {
           link: 'https://scholar.google.fr/citations?user=FDWwdoQAAAAJ&hl=en',
           icon: <FaGoogleScholar/>,
-        },        
+        },
       ]
-      
+
     return (
-        <footer className='md:flex md:px-10 lg:flex bg-white dark:bg-slate-800 text-black dark:text-white lg:px-24 px-4 py-6 justify-between border-t border-slate-800'>
-                <div className='md:flex lg:flex gap-20 '>
-                    <div>
-                        <div className='flex space-x-20'>
-                            {social.map((social, index) => (
-                                <a key={index} target="_blank" href={social.link} className=' hover:text-green-800 transition-all duration-150 ease-in-out'>
-                                <div  className='text-[28px]'>
-                                    {social.icon}
-                                </div>                    
-                            </a>
-                            ))}
-                        </div>
-                    </div>
+        <footer className='bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-300 border-t border-stone-200 dark:border-stone-700 py-8'>
+            <div className='max-w-6xl mx-auto px-6 md:px-10 lg:px-20 flex flex-col sm:flex-row items-center justify-between gap-4'>
+                <div className='flex space-x-8'>
+                    {social.map((social, index) => (
+                        <a key={index} target="_blank" href={social.link} rel="noopener noreferrer" className='hover:text-amber-600 dark:hover:text-amber-400 transition-colors duration-200'>
+                            <div className='text-[24px]'>
+                                {social.icon}
+                            </div>
+                        </a>
+                    ))}
                 </div>
+                <p className='text-sm text-stone-400 dark:text-stone-500'>
+                    &copy; {new Date().getFullYear()} Vinkle Srivastav
+                </p>
+            </div>
         </footer>
     )
 }

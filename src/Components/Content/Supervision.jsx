@@ -9,7 +9,7 @@ import { FaLinkedinIn } from 'react-icons/fa';
 
 const CandidatesAndInterns = () => {
   useEffect(() => {
-    AOS.init({ duration: 800, easing: 'ease-in-out', once: true });
+    AOS.init({ duration: 600, easing: 'ease-in-out', once: true });
   }, []);
 
   return (
@@ -23,121 +23,127 @@ const CandidatesAndInterns = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://vinkle.github.io/" />
       </Helmet>
-      <section id="Supervision" className="bg-white dark:bg-slate-900 text-black dark:text-white py-20 px-10 lg:px-20">
-        <h1 className="text-[52px] font-semibold mb-20 leading-normal uppercase text-white-500">
-          Supervision
-          <span className="text-[20px] block normal-case font-medium text-gray-400 dark:text-gray-400">
-            (Co-supervision along with  <a href='https://camma.unistra.fr/npadoy/' target='_blank' rel='noopener noreferrer' className='text-blue-400 font-bold hover:text-green-600'>Prof. Nicolas Padoy</a>)
-          </span>
-        </h1>
-        <div className="space-y-8">
-          <div>
-            <h2 className="text-2xl font-semibold mb-6 text-white-600 dark:text-white-400">
-              PhD Candidates
-            </h2>
-            <div className="space-y-4">
-              {phdCandidates.map((candidate, index) => (
-                <article
-                  key={index}
-                  className="flex flex-col sm:flex-row justify-between border-b border-gray-200 dark:border-gray-700 pb-4 hover:bg-gray-50 dark:hover:bg-slate-800 transition-all duration-300 rounded-lg p-3"
-                >
-                  <span className="text-gray-600 dark:text-gray-400 font-medium w-48 sm:w-64 mb-2 sm:mb-0 whitespace-nowrap">
-                    {candidate.period}
-                  </span>
-                  <a
-                    href={candidate.linkedin_link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex-shrink-0 w-12 h-12 sm:w-16 sm:h-16 rounded-full overflow-hidden border-2 border-gray-200 dark:border-gray-700 hover:border-blue-500 transition-all duration-300"
-                    aria-label={`View ${candidate.name}'s LinkedIn profile`}
+      <section id="Supervision" className="bg-stone-50 dark:bg-stone-900 text-stone-800 dark:text-stone-100 py-20 px-6 md:px-10 lg:px-20">
+        <div className="max-w-6xl mx-auto">
+          <div className="mb-12">
+            <h1 className="font-heading text-3xl md:text-4xl font-semibold text-stone-800 dark:text-stone-100">
+              Supervision
+            </h1>
+            <div className="w-16 h-1 bg-amber-600 dark:bg-amber-400 mt-4 rounded-full"></div>
+            <span className="text-base block mt-4 font-medium text-stone-500 dark:text-stone-400">
+              (Co-supervision along with <a href='https://camma.unistra.fr/npadoy/' target='_blank' rel='noopener noreferrer' className='text-amber-700 dark:text-amber-400 font-bold hover:text-amber-900 dark:hover:text-amber-300'>Prof. Nicolas Padoy</a>)
+            </span>
+          </div>
+
+          <div className="space-y-8">
+            <div>
+              <h2 className="font-heading text-xl md:text-2xl font-semibold mb-6 text-stone-700 dark:text-stone-200">
+                PhD Candidates
+              </h2>
+              <div className="space-y-4">
+                {phdCandidates.map((candidate, index) => (
+                  <article
+                    key={index}
+                    className="flex flex-col sm:flex-row justify-between border-b border-stone-200 dark:border-stone-700 pb-4 hover:bg-amber-50/50 dark:hover:bg-amber-900/10 transition-all duration-200 rounded-lg p-3"
                   >
-                    <img
-                      src={candidate.image}
-                      alt={`Profile picture of ${candidate.name}`}
-                      className="w-full h-full object-cover"
-                    />
-                  </a>
-                  <div className="flex-1 ml-4">
+                    <span className="text-stone-500 dark:text-stone-400 font-medium w-48 sm:w-64 mb-2 sm:mb-0 whitespace-nowrap">
+                      {candidate.period}
+                    </span>
                     <a
                       href={candidate.linkedin_link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
+                      className="flex-shrink-0 w-12 h-12 sm:w-16 sm:h-16 rounded-full overflow-hidden border-2 border-stone-200 dark:border-stone-700 hover:border-amber-500 transition-all duration-200"
                       aria-label={`View ${candidate.name}'s LinkedIn profile`}
                     >
-                      {candidate.name}
+                      <img
+                        src={candidate.image}
+                        alt={`Profile picture of ${candidate.name}`}
+                        className="w-full h-full object-cover"
+                      />
                     </a>
-                    <p className="text-gray-600 dark:text-gray-400 mt-1">
-                      {candidate.thesis}
-                    </p>
-                    <div className="flex space-x-2 mt-2">
-                      <a href={candidate.linkedin_link} target="_blank" rel="noopener noreferrer" aria-label={`View ${candidate.name}'s LinkedIn profile`}>
-                        <FaLinkedinIn className="text-blue-600 hover:text-blue-800" size={16} />
+                    <div className="flex-1 ml-4">
+                      <a
+                        href={candidate.linkedin_link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-stone-800 dark:text-stone-200 hover:text-amber-700 dark:hover:text-amber-400 transition-colors duration-200"
+                        aria-label={`View ${candidate.name}'s LinkedIn profile`}
+                      >
+                        {candidate.name}
                       </a>
-                      {candidate.scholar_link && (
-                        <a href={candidate.scholar_link} target="_blank" rel="noopener noreferrer" aria-label={`View ${candidate.name}'s Google Scholar profile`}>
-                          <FaGoogleScholar className="text-cyan-600 hover:text-green-800" size={16} />
+                      <p className="text-stone-500 dark:text-stone-400 mt-1">
+                        {candidate.thesis}
+                      </p>
+                      <div className="flex space-x-2 mt-2">
+                        <a href={candidate.linkedin_link} target="_blank" rel="noopener noreferrer" aria-label={`View ${candidate.name}'s LinkedIn profile`}>
+                          <FaLinkedinIn className="text-amber-700 dark:text-amber-400 hover:text-amber-900 dark:hover:text-amber-300" size={16} />
                         </a>
-                      )}
+                        {candidate.scholar_link && (
+                          <a href={candidate.scholar_link} target="_blank" rel="noopener noreferrer" aria-label={`View ${candidate.name}'s Google Scholar profile`}>
+                            <FaGoogleScholar className="text-amber-700 dark:text-amber-400 hover:text-amber-900 dark:hover:text-amber-300" size={16} />
+                          </a>
+                        )}
+                      </div>
                     </div>
-                  </div>
-                </article>
-              ))}
+                  </article>
+                ))}
+              </div>
             </div>
-          </div>
 
-          <div>
-            <h2 className="text-2xl font-semibold mb-6 text-white-600 dark:text-white-400">
-              Research Internships
-            </h2>
-            <div className="space-y-4">
-              {researchInternships.map((intern, index) => (
-                <article
-                  key={index}
-                  className="flex flex-col sm:flex-row justify-between border-b border-gray-200 dark:border-gray-700 pb-4 hover:bg-gray-50 dark:hover:bg-slate-800 transition-all duration-300 rounded-lg p-3"
-                >
-                  <span className="text-gray-600 dark:text-gray-400 font-medium w-48 sm:w-64 mb-2 sm:mb-0 whitespace-nowrap">
-                    {intern.period}
-                  </span>
-                  <a
-                    href={intern.linkedin_link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex-shrink-0 w-12 h-12 sm:w-16 sm:h-16 rounded-full overflow-hidden border-2 border-gray-200 dark:border-gray-700 hover:border-blue-500 transition-all duration-300"
-                    aria-label={`View ${intern.name}'s LinkedIn profile`}
+            <div>
+              <h2 className="font-heading text-xl md:text-2xl font-semibold mb-6 text-stone-700 dark:text-stone-200">
+                Research Internships
+              </h2>
+              <div className="space-y-4">
+                {researchInternships.map((intern, index) => (
+                  <article
+                    key={index}
+                    className="flex flex-col sm:flex-row justify-between border-b border-stone-200 dark:border-stone-700 pb-4 hover:bg-amber-50/50 dark:hover:bg-amber-900/10 transition-all duration-200 rounded-lg p-3"
                   >
-                    <img
-                      src={intern.image}
-                      alt={`Profile picture of ${intern.name}`}
-                      className="w-full h-full object-cover"
-                    />
-                  </a>
-                  <div className="flex-1 ml-4">
+                    <span className="text-stone-500 dark:text-stone-400 font-medium w-48 sm:w-64 mb-2 sm:mb-0 whitespace-nowrap">
+                      {intern.period}
+                    </span>
                     <a
                       href={intern.linkedin_link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
+                      className="flex-shrink-0 w-12 h-12 sm:w-16 sm:h-16 rounded-full overflow-hidden border-2 border-stone-200 dark:border-stone-700 hover:border-amber-500 transition-all duration-200"
                       aria-label={`View ${intern.name}'s LinkedIn profile`}
                     >
-                      {intern.name}
+                      <img
+                        src={intern.image}
+                        alt={`Profile picture of ${intern.name}`}
+                        className="w-full h-full object-cover"
+                      />
                     </a>
-                    <p className="text-gray-600 dark:text-gray-400 mt-1">
-                      {intern.description}
-                    </p>
-                    <div className="flex space-x-2 mt-2">
-                      <a href={intern.linkedin_link} target="_blank" rel="noopener noreferrer" aria-label={`View ${intern.name}'s LinkedIn profile`}>
-                        <FaLinkedinIn className="text-blue-600 hover:text-blue-800" size={16} />
+                    <div className="flex-1 ml-4">
+                      <a
+                        href={intern.linkedin_link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-stone-800 dark:text-stone-200 hover:text-amber-700 dark:hover:text-amber-400 transition-colors duration-200"
+                        aria-label={`View ${intern.name}'s LinkedIn profile`}
+                      >
+                        {intern.name}
                       </a>
-                      {intern.scholar_link && (
-                        <a href={intern.scholar_link} target="_blank" rel="noopener noreferrer" aria-label={`View ${intern.name}'s Google Scholar profile`}>
-                          <FaGoogleScholar className="text-cyan-600 hover:text-green-800" size={16} />
+                      <p className="text-stone-500 dark:text-stone-400 mt-1">
+                        {intern.description}
+                      </p>
+                      <div className="flex space-x-2 mt-2">
+                        <a href={intern.linkedin_link} target="_blank" rel="noopener noreferrer" aria-label={`View ${intern.name}'s LinkedIn profile`}>
+                          <FaLinkedinIn className="text-amber-700 dark:text-amber-400 hover:text-amber-900 dark:hover:text-amber-300" size={16} />
                         </a>
-                      )}
+                        {intern.scholar_link && (
+                          <a href={intern.scholar_link} target="_blank" rel="noopener noreferrer" aria-label={`View ${intern.name}'s Google Scholar profile`}>
+                            <FaGoogleScholar className="text-amber-700 dark:text-amber-400 hover:text-amber-900 dark:hover:text-amber-300" size={16} />
+                          </a>
+                        )}
+                      </div>
                     </div>
-                  </div>
-                </article>
-              ))}
+                  </article>
+                ))}
+              </div>
             </div>
           </div>
         </div>

@@ -2,32 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /* for removing scrollbar in chrome, safari and opera */
 ::-webkit-scrollbar {
     display: none;
 }
 
-.glow {
+body {
+    font-family: 'Source Sans 3', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.warm-glow {
     transition: all 0.3s ease-in-out;
 }
 
-.glow:hover {
-    box-shadow: 0 0 25px rgb(255, 255, 255);
-}
-
-.img_glow {
-    box-shadow: 0 0 55px rgb(255, 255, 255);
-}
-
-.nano-button {
-    transition: all 0.3s ease-in-out;
-}
-
-.nano-button:hover {
-    box-shadow: 0 0 15px rgb(255, 255, 255);
-}
-
-.border-glow {
-    box-shadow: 0 0 15px rgb(255, 255, 255);
+.warm-glow:hover {
+    box-shadow: 0 0 20px rgba(180, 83, 9, 0.15);
 }

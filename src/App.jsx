@@ -27,7 +27,7 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 1500)
+    }, 1000)
   }, [])
 
 
@@ -38,12 +38,12 @@ function App() {
         <meta name="description" content="Vinkle Srivastav's personal website." />
       </Helmet>
       {loading ?
-        <div className="bg-slate-900 h-[100vh] flex justify-center items-center">
+        <div className="bg-stone-900 h-[100vh] flex justify-center items-center">
           <BallTriangle
             height={100}
             width={100}
             radius={5}
-            color="#ffffff"
+            color="#fbbf24"
             ariaLabel="ball-triangle-loading"
             wrapperStyle={{}}
             wrapperClass=""
