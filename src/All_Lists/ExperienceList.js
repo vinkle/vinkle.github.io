@@ -2,7 +2,7 @@ export const experiences = [
     {
       id: 1,
       position: "Assistant Professor",
-      company: "Wadhwani School of Data Science and AI, IIT Madras ",
+      company: "Data Science and AI, IIT Madras ",
       timeFrame: "March 2026 - Present",
       description: "Assistant Professor at IIT Madras working in Surgical AI.",
     },
