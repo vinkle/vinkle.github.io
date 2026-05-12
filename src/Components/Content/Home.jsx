@@ -35,7 +35,7 @@ function Home() {
       text: 'Scholar',
     },
     {
-      link: 'https://drive.google.com/file/d/13A0YsPpQZVtOvLgdy2U7mVfbCAxZmney/view?usp=sharing',
+      link: 'https://drive.google.com/file/d/15dvRthnldNhu7aBlJWBt4F4YF0DkDPue/view?usp=sharing',
       icon: <FaRegFilePdf />,
       text: 'CV',
     },
