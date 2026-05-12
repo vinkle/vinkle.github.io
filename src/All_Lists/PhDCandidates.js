@@ -2,17 +2,17 @@ import Farahdiba_zarin from "../assets/phds/Farahdiba_zarin.jpeg";
 import idris_hamoud from "../assets/phds/idris_hamoud.jpeg";
 import Keqi_chen from "../assets/phds/Keqi_chen.jpeg";
 import Kun_yuan from "../assets/phds/Kun_yuan.jpg";
-import Shi_li from "../assets/phds/Shi_li.jpeg";
+// import Shi_li from "../assets/phds/Shi_li.jpeg";
 
 
 export const phdCandidates = [   
-    {
-      name: 'Shi Li',
-      linkedin_link: 'https://www.linkedin.com/in/shi-li-640140204/',  
-      period: '[2024 -- ongoing]',
-      thesis: 'Thesis on "Multi-modality learning from video & text for large scale surgical video analysis."',
-      image: Shi_li,
-    },
+    // {
+    //   name: 'Shi Li',
+    //   linkedin_link: 'https://www.linkedin.com/in/shi-li-640140204/',  
+    //   period: '[2024 -- ongoing]',
+    //   thesis: 'Thesis on "Multi-modality learning from video & text for large scale surgical video analysis."',
+    //   image: Shi_li,
+    // },
     {
       name: 'Farahdiba Zarin',
       linkedin_link: 'https://www.linkedin.com/in/farahdiba-zarin/',
